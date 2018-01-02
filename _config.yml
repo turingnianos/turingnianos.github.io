@@ -2,9 +2,9 @@
 title: Turingnianos
 email: turingnianos@gmail.com
 description: "Just Another Jekyll Theme"
-logo_location: "turingnianos.github.io/logo.png"
+logo_location: "logo.png"
 
-#baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "turingnianos.github.io/" # the subpath of your site, e.g. /blog/
 #url: "" # the base hostname & protocol for your site
 
 # Build settings
