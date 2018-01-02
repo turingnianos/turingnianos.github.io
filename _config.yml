@@ -1,7 +1,7 @@
 # Site settings
 title: Turingnianos
 email: turingnianos@gmail.com
-description: "Just Another Jekyll Theme"
+description: "Modelos, ideas y curiosidades de informática y matemáticas"
 logo_location: "logo.png"
 
 baseurl: "" # the subpath of your site, e.g. /blog/
