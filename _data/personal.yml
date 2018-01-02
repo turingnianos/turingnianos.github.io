@@ -1,44 +1,44 @@
 ---
-  name: "Your Name"
-  position: "Your Position"
-  company: "Your Company"
-  location: "Your City, Your State"
-  email: "you@somedomain.com"
-  gravatar: "http://api.adorable.io/avatars/300/abott@adorable.png"
+  name: "Gonzalo Estrán Buyo"
+  position: "Estudiante e investigador"
+  company: "Universidad Politénica de Madrid"
+  location: "Madrid, España"
+  email: "gonesbuyo@gmail.com"
+  gravatar: "https://turingnianos.github.io/profilepic.png"
   bio: |
     Your Short Bio goes here.
   #activate the social buttons you like by removing the comment
   social:
-    google:
-      url: "http://plus.google.com/+You/"
-      text: "+You"
-      btnClass: "btn-google"
-      logo: "fa-google"
+    # google:
+    #  url: "http://plus.google.com/+You/"
+    #  text: "+You"
+    #  btnClass: "btn-google"
+    #  logo: "fa-google"
     # facebook:
     #  url: "http://facebook.com/yourid"
     #  text: "/yourid"
     #  btnClass: "btn-facebook"
     #  logo: "fa-facebook"
     twitter:
-      url: "http://twitter.com/yourid"
-      text: "/yourid"
+      url: "http://twitter.com/sigmoider"
+      text: "/sigmoider"
       btnClass: "btn-twitter"
       logo: "fa-twitter"
-    # linkedin:
-    #   url: "https://www.linkedin.com/in/yourid"
-    #   text: "/yourid"
-    #   btnClass: "btn-linkedin"
-    #   logo: "fa-linkedin"
+     linkedin:
+       url: "https://www.linkedin.com/in/gonesbuyo"
+       text: "/gonesbuyo"
+       btnClass: "btn-linkedin"
+       logo: "fa-linkedin"
     github:
-      url: "http://github.com/yourid"
-      text: "/yourid"
+      url: "http://github.com/gonesbuyo"
+      text: "/gonesbuyo"
       btnClass: "btn-github"
       logo: "fa-github"
-    stackoverflow:
-      url: "http://stackoverflow.com/users/youruserid/yourid"
-      text: "/yourid"
-      btnClass: "btn-stackoverflow"
-      logo: "fa-stack-overflow"
+    # stackoverflow:
+    #  url: "http://stackoverflow.com/users/youruserid/yourid"
+    #  text: "/yourid"
+    #  btnClass: "btn-stackoverflow"
+    #  logo: "fa-stack-overflow"
     # soundcloud:
     #   url: "http://soundcloud.com/yourid"
     #   text: "/yourid"
