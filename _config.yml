@@ -1,8 +1,8 @@
 # Site settings
-title: Rifyll
-email: somename@somedomain.com
+title: Turingnianos
+email: turingnianos@gmail.com
 description: "Just Another Jekyll Theme"
-logo_location: "https://drive.google.com/file/d/1Hb3XQLyVZg555HBXf7rnUx7paKM4Ih9W/view?usp=sharing"
+logo_location: "logo.png"
 
 #baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "" # the base hostname & protocol for your site
