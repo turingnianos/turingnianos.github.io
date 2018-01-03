@@ -28,9 +28,15 @@ Quiero dedicar este blog principalmente a los siguientes (a mi humilde parecer) 
 
 ### Inspiración:
 Para este blog me inspiro en primer lugar en lo que Richard P. Feynman dijo en su día: 
-> "I finally figured out a way to test whether you have taught an idea or you have only taught a definition. Test it this way: You say, 'Without using the new word which you have just learned, try to rephrase what you have just learned in your own language. Without using the word 'energy', tell me what you know now about the dog's motion.' You cannot. So you learned nothing about science."
+> "Finalmente descubrí una manera de probar si has enseñado una idea o si solo has enseñado una definición. Compruébalo de este modo: 'Sin usar la nueva palabra que acabas de aprender, intenta reformular lo que acabas de describir. aprendido en tu propio idioma. Sin usar la palabra "energía", dime lo que sabes ahora sobre el movimiento de un perro ". No puedes. Entonces no aprendiste nada sobre la ciencia".
 
-Elladodelmal, Gaussianos, Francis Naukas, colah, KDNuggets.
+Por otro lado, no puedo dejar de mencionar principalmente los siguientes blogs:
+* [Elladodelmal](elladodelmal.com) de Chema Alonso: el blog de la persona que me ha motivado a crear este blog con su gran forma de comunicar.
+* [Gaussianos](gaussianos.com) de Miguel Ángel Morales Medina: el principal referente en divulgación matemática de habla española y del cual he sacado la idea de bautizar el blog con Turingnianos. Pues Gauss ha sido a la matemática lo que Turing a la computación.
+* [Cuentos Cuánticos](https://cuentos-cuanticos.com/): un increíble blog de divulgación sobre Física.
+* [Naukas](http://naukas.com/): una gran plataforma online de divulgación científica en español.
+* [Chris Olah](colah.github.io) de Miguel Artime, Antonio Martínez y  Javier Peláez: blog en inglés con varias explicaciones sobre aspectos de IA.
+* [KDNuggets](https://www.kdnuggets.com/) de Gregory Piatetsky-Shapiro: blog en inglés con posts sobre Machine Learning.
 
 ### Conclusiones:
 
