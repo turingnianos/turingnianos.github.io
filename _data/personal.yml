@@ -13,11 +13,6 @@
     
   #activate the social buttons you like by removing the comment
   social:
-    google:
-     url: "http://plus.google.com/+GonzaloEstránBuyo/"
-     text: "Google+"
-     btnClass: "btn-google"
-     logo: "fa-google"
     # facebook:
     #  url: "http://facebook.com/yourid"
     #  text: "/yourid"
@@ -38,6 +33,11 @@
       text: "gonesbuyo"
       btnClass: "btn-github"
       logo: "fa-github"
+    google:
+     url: "http://plus.google.com/+GonzaloEstránBuyo/"
+     text: "Google+"
+     btnClass: "btn-google"
+     logo: "fa-google"
     # stackoverflow:
     #  url: "http://stackoverflow.com/users/youruserid/yourid"
     #  text: "/yourid"
