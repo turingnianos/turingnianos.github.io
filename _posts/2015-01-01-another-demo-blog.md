@@ -4,7 +4,7 @@ tags: machine-learning python numpy scikit-learn
 date: 2015-01-01 13:08
 thumbnail: http://placehold.it/100x100
 title: Another Demo blog
-published: false
+published: true
 ---
 
 Lorem ipsum dolor sit amet, vivamus quis, urna ligula, aliquet wisi fermentum pellentesque. Vestibulum euismod erat urna vestibulum, per cras tempus bibendum vestibulum, cras a, mus et.
