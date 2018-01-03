@@ -5,11 +5,11 @@
   location: "Madrid, España"
   email: "gonesbuyo@gmail.com"
   gravatar: "/profilepic.jpg"
-  bio: |
-    Actualmente me dedico a investigar en NLP (Procesado de Lenguaje Natural) mientras completo mi grado en Matemáticas e Informática en la Universidad Politécnica de Madrid.
-    Estudié piano durante 10 años en el Conservatorio Profesional de Música de Majadahonda (Madrid), adquiriendo gran parte de mi conocimiento y pasión por la composición, la improvisación y la teoría musical. También obtuve el diploma de Bachillerato Internacional (IBO) y  el Certificate of Proficiency in English (CPE) de Cambridge.
-    Tengo especial interés en Inteligencia Artificial, Lingüística Computacional, generación algorítmica de música, Machine Learning, criptografía, matemáticas recreativas y Filosofía.
-    Cuento ante todo con gran curiosidad e interés por las Artes, la Tecnología y el estudio del conocimiento humano.
+  bio: |\n
+    Actualmente me dedico a investigar en NLP (Procesado de Lenguaje Natural) mientras completo mi grado en Matemáticas e Informática en la Universidad Politécnica de Madrid.\n
+    Estudié piano durante 10 años en el Conservatorio Profesional de Música de Majadahonda (Madrid), adquiriendo gran parte de mi conocimiento y pasión por la composición, la improvisación y la teoría musical. También obtuve el diploma de Bachillerato Internacional (IBO) y  el Certificate of Proficiency in English (CPE) de Cambridge.\n
+    Tengo especial interés en Inteligencia Artificial, Lingüística Computacional, generación algorítmica de música, Machine Learning, criptografía, matemáticas recreativas y Filosofía.\n
+    Cuento ante todo con gran curiosidad e interés por las Artes, la Tecnología y el estudio del conocimiento humano.\n
     
   #activate the social buttons you like by removing the comment
   social:
