@@ -11,7 +11,7 @@
   social:
     google:
      url: "http://plus.google.com/+GonzaloEstránBuyo/"
-     text: "+GonzaloEstránBuyo"
+     text: "Google+"
      btnClass: "btn-google"
      logo: "fa-google"
     # facebook:
