@@ -7,7 +7,7 @@ title: ¡Hola Mundo!
 published: false
 ---
 
-Información inicial...
+Hola a todos, inauguro este nuevo blog como propósito del año 2018. En este post explicaré un poco lo que me motiva a crearlo y el contenido que pretendo que incluya.
 
 <!--more-->
 
