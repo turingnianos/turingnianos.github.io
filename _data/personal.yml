@@ -9,11 +9,11 @@
     Your Short Bio goes here.
   #activate the social buttons you like by removing the comment
   social:
-    google:
-     url: "http://plus.google.com/+You/"
-     text: "+You"
-     btnClass: "btn-google"
-     logo: "fa-google"
+    #google:
+     #url: "http://plus.google.com/+You/"
+     #text: "+You"
+     #btnClass: "btn-google"
+     #logo: "fa-google"
     # facebook:
     #  url: "http://facebook.com/yourid"
     #  text: "/yourid"
