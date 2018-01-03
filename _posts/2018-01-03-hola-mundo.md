@@ -11,15 +11,15 @@ Hola a todos, inauguro este nuevo blog como propósito del año 2018. En este po
 
 <!--more-->
 
-## Motivación:
+### Motivación:
 
 Con la creciente fama e importancia de la Inteligencia Artificial en nuestra sociedad han surgido en este último año que acabamos de abandonar numerosos artículos en plataformas como [Medium]() tratando de explicar ciertas ideas y técnicas sobretodo recientes en este área. 
 
-## Objetivo:
+### Objetivo:
 
 
-## Inspiración:
+### Inspiración:
 
 
-## Conclusiones:
+### Conclusiones:
 
