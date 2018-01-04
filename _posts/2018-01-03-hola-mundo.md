@@ -30,6 +30,7 @@ Quiero dedicar este blog principalmente a los siguientes (a mi humilde parecer) 
 ### Inspiración:
 Para este blog me inspiro en primer lugar en lo que Richard P. Feynman dijo en su día: 
 > *"Finalmente descubrí una manera de probar si has enseñado una idea o si solo has enseñado una definición. Compruébalo de este modo: 'Sin usar la nueva palabra que acabas de aprender, intenta reformular lo que acabas de describir, aprendido en tu propio idioma. Sin usar la palabra "energía", dime lo que sabes ahora sobre el movimiento de un perro ". No puedes. Entonces no aprendiste nada sobre la ciencia".*
+
 De modo que trataré de comunicar ideas aprendiendo así yo también a comprenderlas mejor.
 
 Por otro lado, no puedo dejar de mencionar los siguientes blogs:
