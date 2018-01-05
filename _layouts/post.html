@@ -28,6 +28,10 @@ comments: true
           {{ content }}
         </article>
         
+        {% if page.share == "true" or page.share != "false" %}
+        {% include share-bar.html %}
+        {% endif %}
+        
         {% include disqus.html %}
         
       </div>
