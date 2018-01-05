@@ -16,6 +16,10 @@
 
     <script id="dsq-count-scr" src="//SHORTNAME.disqus.com/count.js" async></script>
     
+    {% if page.share == "true" or page.share != "false" %}
+    {% include share-bar.html %}
+    {% endif %}
+    
     {% if jekyll.environment == 'production' %}
     {% include analytics.html %}
     {% endif %}
