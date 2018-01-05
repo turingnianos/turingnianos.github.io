@@ -15,6 +15,10 @@
     <script src="{{ "/assets/js/site.js" | prepend: site.baseurl }}"></script>
 
     <script id="dsq-count-scr" src="//SHORTNAME.disqus.com/count.js" async></script>
+    
+    {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
 
   </body>
 
