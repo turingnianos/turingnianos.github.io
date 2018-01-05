@@ -5,7 +5,6 @@ date: 2018-01-03 17:40
 thumbnail: /logo.png
 title: ¡Hola Mundo!
 comments: true
-share: false
 published: true
 ---
 
