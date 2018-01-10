@@ -1,9 +1,9 @@
 /* @import url(http://fonts.googleapis.com/css?family=Lato:400,700); */
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
 
 /* global settings */
 body {
-  font-family: 'Roboto', 'sans-serif';
+  font-family: 'Bellefair', 'sans-serif';
   padding-bottom:60px;
   padding-top:50px;
   font-size:170%;
