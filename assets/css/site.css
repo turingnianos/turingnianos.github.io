@@ -1,9 +1,10 @@
 /* @import url(http://fonts.googleapis.com/css?family=Lato:400,700); */
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
 
 /* global settings */
 body {
-  font-family: 'Old Standard TT', 'sans-serif';
+  font-family: 'Satisfy', 'Old Standard TT', 'sans-serif';
   padding-bottom:60px;
   padding-top:50px;
   font-size:170%;
