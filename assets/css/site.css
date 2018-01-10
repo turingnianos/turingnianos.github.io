@@ -1,8 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
 
 /* global settings */
 body {
-  font-family: 'crimson-text', 'Lato', 'sans-serif';
+  font-family: 'Crimson Text', 'Lato', 'sans-serif';
   padding-bottom:60px;
   padding-top:50px;
 }
