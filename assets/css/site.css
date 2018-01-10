@@ -1,9 +1,9 @@
 /* @import url(http://fonts.googleapis.com/css?family=Lato:400,700); */
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
 
 /* global settings */
 body {
-  font-family: 'Indie Flower', 'sans-serif';
+  font-family: 'Old Standard TT', 'sans-serif';
   padding-bottom:60px;
   padding-top:50px;
   font-size:170%;
