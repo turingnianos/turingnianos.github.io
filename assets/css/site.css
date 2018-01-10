@@ -1,12 +1,11 @@
 /* @import url(http://fonts.googleapis.com/css?family=Lato:400,700); */
-@import url(https://fonts.googleapis.com/css?family=Alegreya:500);
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
 
 /* global settings */
 body {
-  font-family: 'Alegreya', 'sans-serif';
+  font-family: 'Roboto', 'sans-serif';
   padding-bottom:60px;
   padding-top:50px;
-  font-size:200%;
 }
 
 
