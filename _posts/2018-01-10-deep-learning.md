@@ -5,7 +5,7 @@ date: 2018-01-11 9:30
 thumbnail: /images/neural_net.jpeg
 title: "Aprendizaje profundo: una introducción"
 comments: true
-published: false
+published: true
 ---
 
 Este post tiene como finalidad descubrir el intrigante mundo de las redes neuronales: una técnica de IA que en la última década ha generado resultados increíbles. Aprenderás por fin qué es eso del Deep Learning, como funciona una red neuronal y de qué modo se puede aplicar a diferentes problemas y situaciones del mundo real: detectar objetos en imágenes, generar música, traducir automáticamente de un idioma o vencer al ser humano en juegos como el Go o el Dota 2. Tranquilo, no hace falta ningún concepto previo de matemáticas o informática para entender este post.
@@ -46,3 +46,18 @@ Como podéis observar en la imagen, una neurona se compone de varias partes. Es 
 * Las ramificaciones del cuerpo celular se llaman **dentritas** y se "conectan" con terminales nerviosas de otras neuronas.
 * Hay también una extensión separada que suele ser más larga que recibe el nombre de **axón** y de la cual surgen las **terminales nerviosas** de la neurona.
 Por tanto, para recapitular podemos decir que las neuronas tienen un cuerpo celular que tiene por un lado dentritas con las cuales otras neuronas se conectan con ella y terminales por las cuales ella se conecta a otras neuronas. Si ayuda, puedes ver las dentritas como diferentes entradas de USB que conectan con el cuerpo de la neurona y las terminales como una ramificación de diferentes USBs provenientes de un cable (axón) que sale desde el cuerpo.
+
+De este modo, la información se transmite mediante un impulso eléctrico desde una neurona a otras. Dicho impulso se transmitirá mediante las terminales de la neurona a las dentritas de otras a las que esté "conectada". Tras llegar a las dentritas el cuerpo celular valorará si la señal es relevante y, de serlo, emitirá una señal por medio del axón para tratar de trasmitirla a otras neuronas por medio de sus terminales.
+
+Muy bien, esto es muy bonito, pero ¿cómo interpreta el cuerpo celular una señal? ¿Cómo es eso de que decide si es relevante? Pues bien, para entender esto es clave saber que debido a la cantidad de información de diferente origen y formato que el ser humano tiene que manejar **las neuronas están especializadas en mayor o menor medida**. De este modo, se dice que dos neuronas pueden reaccionar de un modo muy diferente ante una misma señal eléctrica, y esto se debe principalmente a:
+1. Cómo sea esa señal (de mayor o menor intensidad).
+2. Cómo sea esa neurona (si está más o menos relacionada con señales de ese tipo: no es lo mismo que sea una neurona especializada en señales recibidas a partir de la vista que si está especializada en información olfativa).
+3. Cómo de fuerte sea la conexión con la neurona por la cual le ha venido el impulso.
+
+Como es de supiner, una  **red neuronal** es un sistema en el cual múltiples neuronas se encuentran interconectadas. El cerebro es por tanto una gran red neuronal.
+
+Perfecto, hasta aquí la parte de biología. Ahora toca nuestro momento de intersección. Vamos intentar describir este modelo de la naturaleza de forma matemática. No, no te asustes, sigue leyendo. Ya verás como lo entiendes y te sorprende.
+
+### Redes Neuronales Artificiales:
+
+Pensemos un poco a cerca de lo de antes: *dos neuronas pueden reaccionar de un modo muy diferente ante una misma señal eléctrica*.
