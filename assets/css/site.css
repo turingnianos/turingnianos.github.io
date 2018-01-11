@@ -14,8 +14,8 @@ body {
 .image-wrapper {
     text-align: center;
     .image-caption {
-        color: $blue-color;
-        margin-top: $spacing-unit / 3;
+        color: #002E62;
+        margin-top: 2cm;
     }
 }
 
