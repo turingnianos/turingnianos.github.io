@@ -11,7 +11,7 @@ body {
 }
 
 .MathJax {
-  font-size: 20px;
+  font-size: 20px !important;
 }
 
 .video-wrapper {
