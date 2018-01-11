@@ -6,7 +6,7 @@ thumbnail: /images/neural_net.jpeg
 title: "Aprendizaje profundo: una introducción"
 comments: true
 mathjax: true
-published: true
+published: false
 ---
 
 Este post tiene como finalidad descubrir el intrigante mundo de las redes neuronales: una técnica de IA que en la última década ha generado resultados increíbles. Aprenderás por fin qué es eso del Deep Learning, como funciona una red neuronal y de qué modo se puede aplicar a diferentes problemas y situaciones del mundo real: detectar objetos en imágenes, generar música, traducir automáticamente de un idioma o vencer al ser humano en juegos como el Go o el Dota 2. Tranquilo, no hace falta ningún concepto previo de matemáticas o informática para entender este post.
@@ -70,6 +70,4 @@ Perfecto, hasta aquí la parte de biología. Ahora toca nuestro momento de inter
 
 Pensemos un poco a cerca de lo anterior: *dos neuronas pueden reaccionar de un modo muy diferente ante una misma señal eléctrica*. Ok, entonces podemos decir que (de forma algo simplista) una neurona se conecta de diferente modo con otras. Es decir, que no es como un simple interruptor: no es que esté conectada **o** no lo esté ($1$ ó $0$), si no más bien que la conexión de una neurona con otra puede ir **desde** no conectada en absoluto **hasta** completamente conectada (desde $0$ hasta $1$).
 
-$$ r = h = \sqrt{\frac {1} {2}} = \sqrt{\frac {N} {N+1}} \sqrt{\frac {N+1} {2N}} $$
-
-Qwerty
+Por tanto, 
