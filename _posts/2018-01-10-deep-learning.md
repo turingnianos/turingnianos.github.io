@@ -38,7 +38,7 @@ Si bien lo anterior nos podría dar una idea algo general de lo que es una neuro
 <div>
   <br>
   <figure>
-     <img src="turingnianos.github.io/images/neurona.png" style="max-width: 200px;" alt="Neurona" />
+     <img src="/images/neurona.png" style="max-width: 200px;" alt="Neurona" />
      <figcaption>Partes principales de una neurona.</figcaption>
   </figure>
   <br>
