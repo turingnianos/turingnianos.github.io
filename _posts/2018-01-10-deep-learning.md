@@ -37,7 +37,7 @@ Si bien lo anterior nos podría dar una idea algo general de lo que es una neuro
 
 <center> 
 {% include image.html
-   img="logo.png"
+   img=""
    title="Neurona"
    caption="<b>Imagen 1:</b> <i>partes de una neurona.</i>" %}
 </center>
