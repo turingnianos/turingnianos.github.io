@@ -38,7 +38,6 @@ Si bien lo anterior nos podría dar una idea algo general de lo que es una neuro
 <div>
 <br>
 <figure>
-   <a href="http://jekyllrb.com">
    <img src="logo.png" style="max-width: 200px;" alt="Jekyll logo" />
    <figcaption>This is the Jekyll logo</figcaption>
 </figure>
