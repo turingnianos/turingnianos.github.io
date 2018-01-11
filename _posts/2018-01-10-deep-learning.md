@@ -5,6 +5,7 @@ date: 2018-01-11 9:30
 thumbnail: /images/neural_net.jpeg
 title: "Aprendizaje profundo: una introducción"
 comments: true
+mathjax: true
 published: true
 ---
 
