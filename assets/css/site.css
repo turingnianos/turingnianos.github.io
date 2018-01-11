@@ -13,8 +13,8 @@ body {
 
 .image-wrapper {
     text-align: center;
-    .image-caption p {
-        color: #002E62;
+    .image-caption {
+        color: blue;
         margin-top: 2cm;
     }
 }
