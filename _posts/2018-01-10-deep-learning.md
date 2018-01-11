@@ -37,6 +37,7 @@ Si bien lo anterior nos podría dar una idea algo general de lo que es una neuro
 
 {% include image.html
             file="neurona.png"
+            alt="Neurona"
             caption="caption for image" %}
 
 Como podéis observar en la imagen, una neurona se compone de varias partes. Es importante entender las neuronas como vías por las cuales se transmite información (en forma de impulsos eléctricos). A nosotros nos interesa en particular lo siguiente:
