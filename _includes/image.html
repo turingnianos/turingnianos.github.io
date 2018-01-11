@@ -12,7 +12,7 @@
         <p class="image-caption">{{ include.caption }}</p>
     {% endif %}
 </div>
--->
+
 
 <figure>
    <a href="{{ include.url }}">
@@ -20,6 +20,19 @@
       alt="{{ include.alt }}"/>
    <figcaption>{{ include.caption }}</figcaption>
 </figure>
+
+-->
+    
+<div>
+  <br>
+  <figure>
+    <center>
+     <img src="/images/{{ include.file }}" height="100%" width="100%" alt="Neurona" />
+     <figcaption>{{ include.caption }}</figcaption>
+    </center>
+  </figure>
+  <br>  
+</div>
 
 <!-- Estructura: 
 {% include image.html
