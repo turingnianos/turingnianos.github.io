@@ -10,14 +10,6 @@ body {
   font-size:170%;
 }
 
-.image-wrapper {
-    text-align: center;
-    .image-caption {
-        color:#002E62;
-        margin-top:5px;
-    }
-}
-
 .video-wrapper {
   position:relative;
   padding-bottom:56.25%; /* 16:9 */
