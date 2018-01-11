@@ -5,7 +5,7 @@ date: 2018-01-11 9:30
 thumbnail: /images/neural_net.jpeg
 title: "Aprendizaje profundo: una introducción"
 comments: true
-published: true
+published: false
 ---
 
 Este post tiene como finalidad descubrir el intrigante mundo de las redes neuronales: una técnica de IA que en la última década ha generado resultados increíbles. Aprenderás por fin qué es eso del Deep Learning, como funciona una red neuronal y de qué modo se puede aplicar a diferentes problemas y situaciones del mundo real: detectar objetos en imágenes, generar música, traducir automáticamente de un idioma o vencer al ser humano en juegos como el Go o el Dota 2. Tranquilo, no hace falta ningún concepto previo de matemáticas o informática para entender este post.
@@ -35,7 +35,12 @@ Como algunos recordaréis del colegio, el cerebro cuenta con unas células espec
 
 Si bien lo anterior nos podría dar una idea algo general de lo que es una neurona, veamos con más detalle cómo funciona. Esto nos va a servir para poder entender mejor lo siguiente.
 
-
+<center> 
+{% include image.html 
+   img="images/neurona.png" 
+   title="Neurona" 
+   caption="<b>Imagen 1:</b> <i>partes de una neurona.</i>" %} 
+</center>
 
 Como podéis observar en la imagen, una neurona se compone de varias partes. Es importante entender las neuronas como vías por las cuales se transmite información (en forma de impulsos eléctricos). A nosotros nos interesa en particular lo siguiente:
 * Las neuronas tienen un **cuerpo celular** llamado soma que contiene el núcleo.
