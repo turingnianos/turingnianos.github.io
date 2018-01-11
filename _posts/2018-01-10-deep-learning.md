@@ -34,11 +34,17 @@ Como algunos recordaréis del colegio, el cerebro cuenta con unas células espec
 
 
 Si bien lo anterior nos podría dar una idea algo general de lo que es una neurona, veamos con más detalle cómo funciona. Esto nos va a servir para poder entender mejor lo siguiente.
-
-{% include image.html
-            file="neurona.png"
-            alt="Neurona"
-            caption="caption for image" %}
+            
+<div>
+  <br>
+  <figure>
+    <center>
+     <img src="/images/neurona.png" height="100%" width="100%" alt="Neurona" />
+     <figcaption><b>Figura 1:</b> <i>Partes principales de una neurona.</i></figcaption>
+    </center>
+  </figure>
+  <br>  
+</div>
 
 Como podéis observar en la imagen, una neurona se compone de varias partes. Es importante entender las neuronas como vías por las cuales se transmite información (en forma de impulsos eléctricos). A nosotros nos interesa en particular lo siguiente:
 * Las neuronas tienen un **cuerpo celular** llamado soma que contiene el núcleo.
