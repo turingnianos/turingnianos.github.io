@@ -11,7 +11,13 @@
             allow="autoplay; encrypted-media" 
             allowfullscreen> 
     </iframe>
-            
-    <br>
+    
+   {% if include.url %}
+        </a>
+   {% endif %}
+   {% if include.caption %}
+        <p class="video-caption">{{ include.caption }}</p>
+        <br>
+   {% endif %}
     
 </div>
