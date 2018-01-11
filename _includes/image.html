@@ -1,21 +1,20 @@
 <!-- Para añadir captions -->
-<div class="image-wrapper">
+<div class="image-wrapper" >
     {% if include.url %}
     <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
     {% endif %}
-        <img src="{{ site.url }}/{{ include.img }}" alt="{{ include.title }}/">
+        <img src="{{ site.url }}/{{ include.img }}" alt="{{ include.title }}"/>
     {% if include.url %}
     </a>
     {% endif %}
-    {% if include.img_caption %}
-        <p class="image-caption">{{ include.img_caption }}</p>
+    {% if include.caption %}
+        <p class="image-caption">{{ include.caption }}</p>
     {% endif %}
 </div>
 
 <!-- Estructura: 
-{% include image.html 
-   img="images/imagen.png" 
-   title="Título" 
-   img_caption="Figura 1: descripción." 
-%}
+{% include image.html
+            img="images/myimage.jpg"
+            title="title for image"
+            caption="caption for image" %}
 -->
