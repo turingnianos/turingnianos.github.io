@@ -8,12 +8,13 @@
         src="https://www.youtube.com/embed/{{ include.id }}" 
         frameborder="0" 
         allowfullscreen>
+                                                                                                            {% if include.url %}
+        </a>
+        {% endif %}
+        {% if include.caption %}
+            <p class="image-caption">{{ include.caption }}</p>
+        {% endif %}
+    
     </iframe>
     
-                                                                                                            {% if include.url %}
-    </a>
-    {% endif %}
-    {% if include.caption %}
-        <p class="image-caption">{{ include.caption }}</p>
-    {% endif %}
 </div>
