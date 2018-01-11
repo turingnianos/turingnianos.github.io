@@ -25,6 +25,7 @@ Como algunos recordaréis del colegio, el cerebro cuenta con unas células espec
 
 <center>
   {% include youtube_player.html id="iGsC-Yam6PM" %}
+  <br>
   <p>
     <b>Érase una vez el cuerpo humano:</b> <i>las neuronas. Dibujos animados en los que explican las neuronas para niños.</i>
   </p>
