@@ -51,6 +51,7 @@ Como podéis observar en la imagen, una neurona se compone de varias partes. Es 
 * Las ramificaciones del cuerpo celular se llaman **dentritas** y se "conectan" con terminales nerviosas de otras neuronas.
 * Hay también una extensión separada que suele ser más larga que recibe el nombre de **axón** y de la cual surgen las **terminales nerviosas** de la neurona.
 
+
 Por tanto, para recapitular podemos decir que las neuronas tienen un cuerpo celular que tiene por un lado dentritas con las cuales otras neuronas se conectan con ella y terminales por las cuales ella se conecta a otras neuronas. Si ayuda, puedes ver las dentritas como diferentes entradas de USB que conectan con el cuerpo de la neurona y las terminales como una ramificación de diferentes USBs provenientes de un cable (axón) que sale desde el cuerpo.
 
 De este modo, la información se transmite mediante un impulso eléctrico desde una neurona a otras. Dicho impulso se transmitirá mediante las terminales de la neurona a las dentritas de otras a las que esté "conectada". Tras llegar a las dentritas el cuerpo celular valorará si la señal es relevante y, de serlo, emitirá una señal por medio del axón para tratar de trasmitirla a otras neuronas por medio de sus terminales.
