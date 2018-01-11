@@ -7,6 +7,7 @@ body {
   font-family: 'Overlock', 'Old Standard TT', 'sans-serif';
   padding-bottom:60px;
   padding-top:50px;
+  font-size:initial;
 }
 
 .video-wrapper {
