@@ -1,4 +1,8 @@
-<div class="caption">
-  <p><b>{{ caption.title }}</b> <i>{{ caption.text }}</i>
-  </p>
+<div class="caption-creator" >
+    {% if include.url %}
+    </a>
+    {% endif %}
+    {% if include.caption %}
+        <p class="figure-caption">{{ include.caption }}</p>
+    {% endif %}
 </div>
