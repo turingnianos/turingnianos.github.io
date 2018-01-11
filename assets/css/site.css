@@ -14,7 +14,7 @@ body {
 .image-wrapper {
     text-align: center;
     .image-caption {
-        color: blue;
+        color: #002E62;
         margin-top: 2cm;
     }
 }
