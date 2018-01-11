@@ -10,7 +10,13 @@ body {
   font-size:170%;
 }
 
-
+.video-wrapper iframe {
+  position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
 
 .page-header{
   margin: 10px 0;
