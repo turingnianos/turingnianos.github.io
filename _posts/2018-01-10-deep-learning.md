@@ -35,16 +35,9 @@ Como algunos recordaréis del colegio, el cerebro cuenta con unas células espec
 
 Si bien lo anterior nos podría dar una idea algo general de lo que es una neurona, veamos con más detalle cómo funciona. Esto nos va a servir para poder entender mejor lo siguiente.
 
-<div>
-  <br>
-  <figure>
-    <center>
-     <img src="/images/neurona.png" height="100%" width="100%" alt="Neurona" />
-     <figcaption><b>Figura 1:</b> <i>Partes principales de una neurona.</i></figcaption>
-    </center>
-  </figure>
-  <br>  
-</div>
+{% include image.html
+            img="neurona.png"
+            caption="caption for image" %}
 
 Como podéis observar en la imagen, una neurona se compone de varias partes. Es importante entender las neuronas como vías por las cuales se transmite información (en forma de impulsos eléctricos). A nosotros nos interesa en particular lo siguiente:
 * Las neuronas tienen un **cuerpo celular** llamado soma que contiene el núcleo.
@@ -61,7 +54,7 @@ Muy bien, esto es muy bonito, pero ¿cómo interpreta el cuerpo celular una señ
 2. Cómo sea esa neurona (si está más o menos relacionada con señales de ese tipo: no es lo mismo que sea una neurona especializada en señales recibidas a partir de la vista que si está especializada en información olfativa).
 3. Cómo de fuerte sea la conexión con la neurona por la cual le ha venido el impulso.
 
-Como es de supiner, una  **red neuronal** es un sistema en el cual múltiples neuronas se encuentran interconectadas. El cerebro es por tanto una gran red neuronal.
+Como es de suponer, una  **red neuronal** es un sistema en el cual múltiples neuronas se encuentran interconectadas. El cerebro es por tanto una gran red neuronal.
 
 Perfecto, hasta aquí la parte de biología. Ahora toca nuestro momento de intersección. Vamos intentar describir este modelo de la naturaleza de forma matemática. No, no te asustes, sigue leyendo. Ya verás como lo entiendes y te sorprende.
 
