@@ -38,7 +38,7 @@ Si bien lo anterior nos podría dar una idea algo general de lo que es una neuro
 <div>
   <br>
   <figure>
-     <img src="/images/neurona.png" style="max-width: 100%;" alt="Neurona" />
+     <img src="/images/neurona.png" height="100%" width="100%" alt="Neurona" />
     <figcaption><b>Figura 1:</b> <i>Partes principales de una neurona.</i></figcaption>
   </figure>
   <br>
