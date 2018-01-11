@@ -7,8 +7,8 @@
     {% if include.url %}
     </a>
     {% endif %}
-    {% if include.caption %}
-        <p class="image-caption">{{ include.caption }}</p>
+    {% if include.img_caption %}
+        <p class="image-caption">{{ include.img_caption }}</p>
     {% endif %}
 </div>
 
@@ -16,6 +16,6 @@
 {% include image.html 
    img="images/imagen.png" 
    title="Título" 
-   caption="Figura 1: descripción." 
+   img_caption="Figura 1: descripción." 
 %}
 -->
