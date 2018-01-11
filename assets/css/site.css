@@ -1,13 +1,30 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+/* @import url(http://fonts.googleapis.com/css?family=Lato:400,700); */
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+@import url('https://fonts.googleapis.com/css?family=Overlock');
 
 /* global settings */
 body {
-  font-family: 'Lato', 'sans-serif';
+  font-family: 'Overlock', 'Old Standard TT', 'sans-serif';
   padding-bottom:60px;
   padding-top:50px;
+  font-size:170%;
 }
 
+.video-wrapper {
+  position:relative;
+  padding-bottom:56.25%; /* 16:9 */
+  padding-top:25px;
+  height:0;
+  overflow:hidden;
+}
 
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 .page-header{
   margin: 10px 0;
