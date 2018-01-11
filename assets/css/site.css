@@ -13,7 +13,7 @@ body {
 
 .image-wrapper {
     text-align: center;
-    .image-caption {
+    .image-caption p {
         color: #002E62;
         margin-top: 2cm;
     }
