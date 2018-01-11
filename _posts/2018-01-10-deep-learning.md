@@ -70,3 +70,5 @@ Perfecto, hasta aquí la parte de biología. Ahora toca nuestro momento de inter
 Pensemos un poco a cerca de lo anterior: *dos neuronas pueden reaccionar de un modo muy diferente ante una misma señal eléctrica*. Ok, entonces podemos decir que (de forma algo simplista) una neurona se conecta de diferente modo con otras. Es decir, que no es como un simple interruptor: no es que esté conectada **o** no lo esté ($1$ ó $0$), si no más bien que la conexión de una neurona con otra puede ir **desde** no conectada en absoluto **hasta** completamente conectada (desde $0$ hasta $1$).
 
 $$ r = h = \sqrt{\frac {1} {2}} = \sqrt{\frac {N} {N+1}} \sqrt{\frac {N+1} {2N}} $$
+
+Qwerty
