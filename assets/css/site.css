@@ -10,6 +10,10 @@ body {
   font-size:20px;
 }
 
+.MathJax {
+  font-size: 20px;
+}
+
 .video-wrapper {
   position:relative;
   padding-bottom:56.25%; /* 16:9 */
