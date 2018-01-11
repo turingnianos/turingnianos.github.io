@@ -10,7 +10,7 @@ body {
   font-size:170%;
 }
 
-.video-wrapper iframe {
+.video-wrapper {
   position:relative;
 	padding-bottom:56.25%;
 	padding-top:30px;
