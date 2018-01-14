@@ -96,7 +96,7 @@ Como se puede observar, a cada columna (aunque esté formada sólo por un elemen
   <figure>
     <center>
      <img src="/images/nn1.png" height="100%" width="100%" alt="Neurona" />
-     <figcaption><b>Diagrama 2:</b> <i>Esquema simple de una neurona con etiquetas para los inputs ($$x$$), bias ($$b$$) y output ($$y$$).</i></figcaption>
+     <figcaption><b>Diagrama 2:</b> <i>Esquema simple de una neurona con etiquetas para los inputs ($x$), bias ($b$) y output ($y$).</i></figcaption>
     </center>
   </figure>
   <br>  
@@ -107,6 +107,6 @@ Ya sabemos cómo representar de forma esquemática y simbólica las entradas (in
 
 En primer lugar, cómo ya vimos antes, los pesos son valores $$w$$ de entre $$0$$ y $$1$$ que indican lo importante que es la conexión de un input concreto con una neurona determinada, pero vamos a generalizar esto un poco más: un peso va a indicar directamente la relevancia de la conexión entre un elemento de una capa y otro elemento de la siguiente capa. Podemos de hecho ver las flechas que conectan elementos como **operaciones**, de modo que nuestra neurona opera con las entradas para decidir si se activa o no. Veamos estas operaciones.
 
-En primer lugar, puesto que los weights son como probabilidades tiene sentido pensar que afectarán directamente a cada input. Dicho de otro modo: si tenemos un input con un valor $$x$$ y un peso que lo relaciona con otro elemento de valor $$w = 1$$ tiene sentido pensar que el valor de ese input para el otro elemento que lo recibe será de $$1 * x = x$$, es decir que será directamente $$x$$. El otro extremo será cuando el peso es de $$w = 0$$, por lo cual tiene sentido pensar que será directamente $$0 * x = 0$$, de modo que $$x$$ no influirá en absoluto para el elemento. De este modo, como vimos que los pesos pueden ir de $$0$$ a $$1$$ se puede ver cómo los pesos son directamente proporionales a los inputs, es decir que siempre se multiplicará para saber su importancia de cara a la conexión considerada: $$w * x$$.
+En primer lugar, puesto que los weights son como probabilidades tiene sentido pensar que afectarán directamente a cada input. Dicho de otro modo: si tenemos un input con un valor $$x$$ y un peso que lo relaciona con otro elemento de valor $$w = 1$$ tiene sentido pensar que el valor de ese input para el otro elemento que lo recibe será de $$1 * x = x$$, es decir que será directamente $$x$$. El otro extremo será cuando el peso es de $$w = 0$$, por lo cual tiene sentido pensar que será directamente $$0 * x = 0$$, de modo que $$x$$ no influirá en absoluto para el elemento. De este modo, como vimos que los pesos pueden ir de $$0$$ a $$1$$ se puede ver cómo los pesos son directamente proporionales a los inputs, es decir que siempre se multiplicará para saber su importancia de cara a la conexión considerada: $w * x$.
 
 Por otro lado, ¿cómo decide nuestra neurona cuándo activarse y cuándo no?
