@@ -232,7 +232,7 @@ Y su gráfica:
   <br>
   <figure>
     <center>
-     <img src="/images/sigmoid.png" height="100%" width="100%" alt="ReLU" />
+     <img src="/images/sigmoid.jpeg" height="100%" width="100%" alt="ReLU" />
      <figcaption><b>Gráfico 4:</b> <i>Función ReLU.</i></figcaption>
     </center>
   </figure>
@@ -251,7 +251,7 @@ Este modelo se denomina **perceptrón simple** y fue introducido en 1957 por Fra
   <br>
   <figure>
     <center>
-     <img src="/images/nn3.png" height="100%" width="100%" alt="Diagrama2" />
+     <img src="/images/nn3.png" height="100%" width="100%" alt="Diagrama3" />
      <figcaption><b>Diagrama 4:</b> <i>Esquema completo de una neurona artificial (perceptrón simple).</i></figcaption>
     </center>
   </figure>
@@ -262,11 +262,37 @@ Este modelo se denomina **perceptrón simple** y fue introducido en 1957 por Fra
 
 Ahora que ya sabemos cómo funciona una neurona artificial podemos pasar a analizar redes de dichas neuronas, es decir, lo que se conoce como **redes neuronales artificiales**. Un aviso: he decidido adoptar la notación inglesa dado que es la de mayor uso en el área, de modo que a partir de ahora cuando me refiera a redes neuronales artificiales usaré las siglas **ANNs** (de Artificial Neural Networks), no RNA. Dicho esto, cabe añadir que a partir de ahora cada nodo (cada circulito) de los diagramas que aparezcan será una neurona, con su propio bias y su propia función de activación, que estará conectada a otras neuronas. Esto recuerda a la estructura del cerebro: una gran red neuronal.
 
-- Cada capa realiza una transformación concreta 
-- Las neuronas se especializan dentro de cada capa en diferentes aspectos
+Para entender las ANNs, debemos considerar lo siguiente:
+- Las neuronas se presentan en capas y cada capa realiza una transformación concreta con la información que recibe. Recuerda que la primera capa y la última son casos especiales: la primera es la capa de entrada de información (no tiene bias ni pesos ya que no hay capas anteriores) y la última es la de salida (no tiene pesos que apunten a neuronas de la siguiente capa puesto que es la última).
+- Las neuronas se especializan dentro de cada capa en diferentes aspectos según cuáles sean sus conexiones con la información que reciben (weights) y su tendencia (biases).
+- Las transformaciones de la información junto con la especialización de cada neurona y una función no lineal dan lugar a una red que capta estructuras complejas de información (como puedan ser una imagen o un texto).
+- Cuando una red neuronal tiene más de una capa oculta se considera una **red neuronal profunda** (**DNN**, de Deep Neural Network). Por tanto el aprendizaje profundo (Deep Learning) consiste en aplicar red neuronales profundas para lograr aprender a realizar tareas.
 
-### Aprendizaje profundo (Deep Learning):
+A continuación se muestra un diagrama con la estructura de una DNN con $2$ capas ocultas ($h1$ y $h2$):
 
-- No linearidades
-- Big Data + GPUs
-- Estructuras especializadas: CNNs, RNNs, GANs, ...
+<div>
+  <br>
+  <figure>
+    <center>
+     <img src="/images/dnn.png" height="100%" width="100%" alt="Diagrama4" />
+     <figcaption><b>Diagrama 5:</b> <i>Arquitectura de una DNN (red neuronal profunda) con $2$ capas ocultas.</i></figcaption>
+    </center>
+  </figure>
+  <br>  
+</div>
+
+### Aprendizaje profundo (Deep Learning): conclusión
+
+El aprendizaje profundo como hemos visto es una rama de la Inteligencia Artificial que consiste en afrontar diferentes problemas por medio de redes neuronales profundas (DNNs). Estos modelos se basan en conceptos de la segunda mitad del siglo pasado, pero es en la última década cuando se han producido los mayores avances debido a dos aspectos fundamentales:
+1. **Big Data**: actualmente se dispone de gran cantidad de datos y los modelos neuronales necesitan muchos datos para poder aprender correctamente estructuras complejas. Esto se debe a que el aprendizaje profundo se basa en la iteración sobre los datos para lograr aprender correctamente a predecir, de modo que para que dicha iteración sea eficaz y suficiente debe haber una cantidad de datos considerable.
+2. **Capacidad computacional**: se han producido grandes avances en el desarrollo del hardware empleado para entrenar redes neuronales, concretamente las unidades de procesamiento gráfico (GPUs).
+
+Por otro lado, estos modelos logran aprender con bastante eficacia debido en gran parte a la no linealidad que se introduce y a la especialización de sus elementos (las neuronas) en diferentes aspectos de la información tratada. Para ello como veremos en otro post, lo que se entrenan son los weights y los biases para lograr una estructura que sepa extraer correctamente las propiedades de la información.
+
+Tal y como se explicará mas adelante, el aprendizaje profundo cuenta con diferentes modelos que consisten en structuras especializadas según el tipo de información que se trate. Existen principalmente dos grandes grupos:
+- **Redes Neuronales Convolucionales (CNNs)**: aplicadas principalmente a imágenes.
+- **Redes Neuronales Recurrentes (RNNs)**: aplicadas a datos de tipo secuencial, como puedan ser el lenguaje o el sonido, en las cuales la información es recurrente (en una frase por ejemplo una palabra depende en mayor o menor medida de las palabras anteriores).
+
+Espero que este post haya resultado para comprender un poco mejor en qué consiste el famoso Deep Learning. Si tienes cualquier duda o idea no dudes en poner un comentario.
+
+Que la tau os acompañe! ;)
