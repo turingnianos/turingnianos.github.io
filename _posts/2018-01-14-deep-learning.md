@@ -72,7 +72,7 @@ Pensemos un poco a cerca de lo anterior: *dos neuronas pueden reaccionar de un m
 
 
 #### Entradas, salidas y bias:
-Perfecto, pues ahora tratemos de representar esta idea de neurona de una forma ms esquemática, más conceptual. Para eso hace falta que introduzcamos un poquito de terminología en los 3 factores que introdujimos antes:
+Perfecto, pues ahora tratemos de representar esta idea de neurona de una forma más esquemática, más conceptual. Para eso hace falta que introduzcamos un poquito de terminología en los 3 factores que planteamos antes:
 1. La señal es un **input o entrada**, que se suele representar como $x$. Si hay $3$ señales de entrada (una por cada dentrita) tendríamos $x_{1}$, $x_{2}$, $x_{3}$.
 2. Cada neurona tiene cierta tendencia o inclinación diferente a activarse según cómo sea. Esta parcialidad se denomina **bias** (del inglés), y se representa como $b$. Por tanto, si tenemos $2$ neuronas, cada una tendrá un bias asociado, $b_{1}$ el primero y $b_{2}$ el segundo.
 3. Finalmente, cada conexión entre un input (cada señal) con la neurona tiene un valor llamado peso que puede ir desde $0$ hasta $1$ (como una probabilidad). Este valor se suele denominar **weight** (del inglés) y se representa como $w$. Es decir, cada input se relaciona con una neurona mediante un peso, de forma que no todos los inputs tienen la misma importancia para que la neurona se active o no.
