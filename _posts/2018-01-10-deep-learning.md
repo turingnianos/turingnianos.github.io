@@ -6,7 +6,7 @@ thumbnail: /images/neural_net.jpeg
 title: "Aprendizaje profundo: una introducción"
 comments: true
 mathjax: true
-published: true
+published: false
 ---
 
 Este post tiene como finalidad descubrir el intrigante mundo de las redes neuronales: una técnica de IA que en la última década ha generado resultados increíbles. Aprenderás por fin qué es eso del Deep Learning, como funciona una red neuronal y de qué modo se puede aplicar a diferentes problemas y situaciones del mundo real: detectar objetos en imágenes, generar música, traducir automáticamente de un idioma o vencer al ser humano en juegos como el Go o el Dota 2. Tranquilo, no hace falta ningún concepto previo de matemáticas o informática para entender el post.
@@ -75,7 +75,7 @@ Perfecto, pues ahora tratemos de representar esta idea de neurona de una forma m
 2. Cada neurona tiene cierta tendencia o inclinación diferente a activarse según cómo sea. Esta parcialidad se denomina **bias** (del inglés), y se representa como $$b$$. Por tanto, si tenemos $$2$$ neuronas, cada una tendrá un bias asociado, $$b_{1}$$ el primero y $$b_{2}$$ el segundo.
 3. Finalmente, cada conexión entre un input (cada señal) con la neurona tiene un valor llamado peso que puede ir desde $$0$$ hasta $$1$$ (como una probabilidad). Este valor se suele denominar **weight** (del inglés) y se representa como $$w$$. Es decir, cada input se relaciona con una neurona mediante un peso, de forma que no todos los inputs tienen la misma importancia para que la neurona se active o no.
 
-La forma más minimalista de representar una neurona es el diagrama de abajo. En este diagrama sólo tenemos impulsos (azules) conectados con el núcleo (verde) para luego dar paso a una salida o resultado (rojo), que en este caso simplemente sería si se ha activado o no la neurona según los impulsos sean lo suficientemente influyentes frente al bias. Ahora vemos cómo se decide esto.
+La forma más minimalista de representar una neurona es el diagrama de abajo. En este diagrama sólo tenemos impulsos (azules) conectados con el núcleo (verde) para luego dar paso a una **salida o output** (rojo), que en este caso simplemente sería si se ha activado o no la neurona según los impulsos sean lo suficientemente influyentes frente al bias. Ahora vemos cómo se decide esto.
 
 <div>
   <br>
@@ -88,3 +88,4 @@ La forma más minimalista de representar una neurona es el diagrama de abajo. En
   <br>  
 </div>
 
+Como se puede observar, a cada columna (aunque esté formada sólo por un elemento) se le llama capa, de modo que se tiene en primer lugar la **capa de entrada**, después una **capa oculta** (se llama así porque no es algo que se pueda observar directamente como pueda ser el input o el resultado) y por última la **capa de salida**.
