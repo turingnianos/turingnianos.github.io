@@ -20,7 +20,7 @@ La [Inteligencia Artificial](https://turingnianos.github.io/2018/01/04/ia-que-es
 
 Podríamos poner ejemplos de estas intersecciones con episodios como la manzana de Newton o el propio Eureka de Arquímedes, pero vamos a optar por otra más reciente: las redes neuronales artificiales.
 
-### Redes neuronales:
+### Neuronas y redes neuronales:
 
 Como algunos recordaréis del colegio, el cerebro cuenta con unas células específicas del sistema nervioso (aunque también están en otras partes como la médula espinal y en el sistema digestivo). Estas células reciben el nombre de **neuronas** y se encargan de transmitir impulsos eléctricos a otras células, ya sean estas también nerviosas o de otro tipo (musculares por ejemplo). No sé si en su día viste *Érase una vez el cuerpo humano*, pero ahí se veía de una forma muy simple cómo unos muñecos correteaban de un lado para otro con las órdenes que tenían que dar. Si tienes chavales pequeños lo recomiendo, tiene su gracia y aprenden bastante (aunque sea del año de la tana). Estos muñecos son los impulsos eléctricos que transmiten la información por medio de las neuronas.
 
@@ -66,7 +66,7 @@ Como es de suponer, una  **red neuronal** es un sistema en el cual múltiples ne
 
 Perfecto, hasta aquí la parte de biología. Ahora toca nuestro momento de intersección. Vamos intentar describir este modelo de la naturaleza de forma matemática. No, no te asustes, sigue leyendo. Ya verás como lo entiendes y te sorprende.
 
-### Redes Neuronales Artificiales:
+### Neuronas artificiales:
 
 Pensemos un poco a cerca de lo anterior: *dos neuronas pueden reaccionar de un modo muy diferente ante una misma señal eléctrica*. Ok, entonces podemos decir que (de forma algo simplista) una neurona se conecta de diferente modo con otras. Es decir, que no es como un simple interruptor: no es que esté conectada **o** no lo esté ($1$ ó $0$), si no más bien que la conexión de una neurona con otra puede ir *desde* no conectada en absoluto *hasta* completamente conectada (desde $0$ hasta $1$).
 
@@ -138,7 +138,7 @@ Ahora sólo nos queda encontrar algún tipo de regla que nos indique cuándo el 
 </div>
 
 #### Función escalón:
-Las **funciones** son relaciones matemáticas, lo que hacen es asociar un elemento de un tipo con otro (que puede ser de otro tipo). En nuestro caso según el valor que reciban, devuelven un valor diferente. Vamos a empezar con la función más simple: la función escalón. Esta función es muy intuitiva, pues consiste básicamente en lo siguiente:
+Las **funciones** son relaciones matemáticas, lo que hacen es asociar un elemento de un tipo con otro (que puede ser de otro tipo). En nuestro caso según el valor que reciban, devuelven un valor diferente. Vamos a empezar analizar la función de activación más simple: la función escalón. Esta función es muy intuitiva, pues consiste básicamente en lo siguiente:
 * Si el valor que recibe es menor o igual que un valor concreto devuelve el valor $0$ (es decir, que no se activa).
 * Si el valor que recibe supera a dicho valor concreto devuelve el $1$ (es decir, se activa).
 Este valor concreto se suele denominar **umbral** (*threshold* en inglés). Vamos a llamar al umbral $u$ y al valor que recibe la función $z$ (se suele usar $x$ para este último, pero no quiero que lo confundamos con los inputs). De este modo, matemáticamente esta función se expresaría del siguiente modo:
@@ -161,8 +161,26 @@ Vamos a ver ya que estamos cómo es la función si se pinta (dando valores a $z$
   <br>  
 </div>
 
-Esta función sólo admite dos salidas: $1$ y $0$. Como se puede observar, tiene sentido que se denomine función escalón.
+Esta función sólo admite dos salidas: $1$ y $0$. Como se puede observar, tiene sentido que se denomine función escalón. 
 
+### Perceptrón simple:
 
-#### Función sigmoide:
+Si recapitulamos un poco, podemos resumir que lo que hacemos por tanto es tomar cada entrada ($x_i$) con su peso asociado ($w_i$) y sumarlas junto con un bias ($b$). Tras resolver esta expresión pasamos el valor obtenido a una función de activación que ($\sigma$) lo toma y según cómo sea produce una salida ($y$):
+
+$$y = \sigma(w_1 * x_1 + w_2 * x_2 + w_3 * x_3 + b) = \sigma(\sum_i(w_i * x_i) + b)$$
+
+Este modelo se denomina **perceptrón simple** y fue introducido en 1957 por Frank Rosenblatt. A continuación se muestra un diagrama que contiene de forma resumida todo lo visto anteriormente.
+
+<div>
+  <br>
+  <figure>
+    <center>
+     <img src="/images/nn3.png" height="100%" width="100%" alt="Diagrama2" />
+     <figcaption><b>Diagrama 4:</b> <i>Esquema completo de una neurona artificial (perceptrón simple).</i></figcaption>
+    </center>
+  </figure>
+  <br>  
+</div>
+
+### Redes neuronales artificiales:
 
