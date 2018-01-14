@@ -70,6 +70,7 @@ Perfecto, hasta aquí la parte de biología. Ahora toca nuestro momento de inter
 
 Pensemos un poco a cerca de lo anterior: *dos neuronas pueden reaccionar de un modo muy diferente ante una misma señal eléctrica*. Ok, entonces podemos decir que (de forma algo simplista) una neurona se conecta de diferente modo con otras. Es decir, que no es como un simple interruptor: no es que esté conectada **o** no lo esté ($1$ ó $0$), si no más bien que la conexión de una neurona con otra puede ir *desde* no conectada en absoluto *hasta* completamente conectada (desde $0$ hasta $1$).
 
+
 #### Entradas, salidas y bias:
 Perfecto, pues ahora tratemos de representar esta idea de neurona de una forma ms esquemática, más conceptual. Para eso hace falta que introduzcamos un poquito de terminología en los 3 factores que introdujimos antes:
 1. La señal es un **input o entrada**, que se suele representar como $x$. Si hay $3$ señales de entrada (una por cada dentrita) tendríamos $x_{1}$, $x_{2}$, $x_{3}$.
@@ -111,6 +112,14 @@ En primer lugar, puesto que los weights son como probabilidades tiene sentido pe
 * Si tenemos un input con un valor $x$ y un peso que lo relaciona con otro elemento de valor $w = 1$ tiene sentido pensar que el valor de ese input para el otro elemento que lo recibe será de $1 * x = x$, es decir que será directamente $x$. 
 * El otro extremo será cuando el peso es de $w = 0$, por lo cual tiene sentido pensar que será directamente $0 * x = 0$, de modo que $x$ no influirá en absoluto para el elemento.
 
-De este modo, como vimos que los pesos pueden ir de $0$ a $1$ se puede ver cómo los pesos son directamente proporionales a los inputs, es decir que siempre se multiplicará para saber su importancia de cara a la conexión considerada: $w * x$.
+De este modo, como vimos que los pesos pueden ir de $0$ a $1$ se puede ver cómo **los pesos son directamente proporionales a los inputs**, es decir que siempre se multiplicará para saber su importancia de cara a la conexión considerada: $w * x$.
 
-Por otro lado, ¿cómo decide nuestra neurona cuándo activarse y cuándo no?
+Por otro lado, ¿cómo decide nuestra neurona cuándo activarse y cuándo no? Pues bien, para eso tiene sentido que deba primero tomar todos los inputs con sus pesos y comparar todo ello con lo dada que es activarse la neurona, es decir, con su bias. Más formalmente, si tenemos $3$ inputs ($x_1$, $x_2$, $x_3$) con un peso asociado cada uno de conexión con la neurona ($w_1$, $w_2$, $w_3$ respectivamente) y nuestra neurona tiene un bias $b$ habrá que comparar $w_1 * x_1 + w_2 * x_2 + w_3 * x_3$ con $b$. Por esto que acabamos de ver **el bias suele ser negativo**, puesto que es como la inercia de la neurona, lo que hace que la neurona se oponga a activarse. De este modo podríamos directamente sumar a nuestro resultado el bias, ya que al ser negativo lo que va a hacer es restar):
+
+$$w_1 * x_1 + w_2 * x_2 + w_3 * x_3 + b$$
+
+Esta expresión significa: *la activación de una neurona depende de todas sus entradas ($x$) con sus respectivas importancias ($w$) junto con lo propensa que sea a activarse de por sí ($b$)*. Para los que les guste poner las cosas más compactas, en matemáticas se usa una notación con un símbolo denominado sumatorio: si en vez de referirnos siempre a cada entrada una por una ($x_1$, $x_2$, ...) nos referimos siempre a una entrada genérica $x_i$, con ir dando valores a $i$ obtenemos cada entrada particular, y lo mismo con los pesos. De este modo la expresión pasa a ser:
+
+$$\sum_{i = 1}^{3}(w_i*x_i) + b$$,
+
+que significa *la suma desde i = 1 hasta i = 3 de el peso $w_i$ por la entrada $x_i$, y todo ello sumado al bias $b$*. Es decir, que se hace lo mismo para los $3$ valores de $i$.
