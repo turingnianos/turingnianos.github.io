@@ -232,7 +232,7 @@ Y su gráfica:
   <br>
   <figure>
     <center>
-     <img src="/images/sigmoid.jpeg" height="100%" width="100%" alt="ReLU" />
+     <img src="/images/relu.jpeg" height="100%" width="100%" alt="ReLU" />
      <figcaption><b>Gráfico 4:</b> <i>Función ReLU.</i></figcaption>
     </center>
   </figure>
@@ -293,6 +293,6 @@ Tal y como se explicará mas adelante, el aprendizaje profundo cuenta con difere
 - **Redes Neuronales Convolucionales (CNNs)**: aplicadas principalmente a imágenes.
 - **Redes Neuronales Recurrentes (RNNs)**: aplicadas a datos de tipo secuencial, como puedan ser el lenguaje o el sonido, en las cuales la información es recurrente (en una frase por ejemplo una palabra depende en mayor o menor medida de las palabras anteriores).
 
-Espero que este post haya resultado para comprender un poco mejor en qué consiste el famoso Deep Learning. Si tienes cualquier duda o idea no dudes en poner un comentario.
+Espero que este post haya resultado útil para comprender un poco mejor en qué se basa el famoso Deep Learning. Si tienes cualquier duda o idea no dudes en poner un comentario.
 
-Que la tau os acompañe! ;)
+**Que la tau os acompañe! ;)**
