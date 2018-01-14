@@ -138,4 +138,12 @@ Ahora sólo nos queda encontrar algún tipo de regla que nos indique cuándo el 
 </div>
 
 #### Función escalón:
-Vamos a empezar con la función más simple: la función escalón.
+Las **funciones** son relaciones matemáticas, lo que hacen es asociar un elemento de un tipo con otro (que puede ser de otro tipo). En nuestro caso según el valor que reciban, devuelven un valor diferente. Vamos a empezar con la función más simple: la función escalón. Esta función es muy intuitiva, pues consiste básicamente en lo siguiente:
+* Si el valor que recibe es menor o igual que un valor concreto devuelve el valor $0$ (es decir, que no se activa).
+* Si el valor que recibe supera a dicho valor concreto devuelve el $1$ (es decir, se activa).
+Este valor concreto se suele denominar **umbral** (*threshold* en inglés). Vamos a llamar al umbral $u$ y al valor que recibe la función $z$ (se suele usar $x$ para este último, pero no quiero que lo confundamos con los inputs). De este modo, matemáticamente esta función se decribiría del siguiente modo:
+
+$$\sigma (z) = \left\{\begin{matrix}
+0 &, si  & z \leq u.\\ 
+1 &, si & z > u.
+\end{matrix}\right.$$
