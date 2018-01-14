@@ -68,7 +68,7 @@ Perfecto, hasta aquí la parte de biología. Ahora toca nuestro momento de inter
 
 ### Redes Neuronales Artificiales:
 
-Pensemos un poco a cerca de lo anterior: *dos neuronas pueden reaccionar de un modo muy diferente ante una misma señal eléctrica*. Ok, entonces podemos decir que (de forma algo simplista) una neurona se conecta de diferente modo con otras. Es decir, que no es como un simple interruptor: no es que esté conectada **o** no lo esté ($1$ ó $0$), si no más bien que la conexión de una neurona con otra puede ir **desde** no conectada en absoluto **hasta** completamente conectada (desde $0$ hasta $1$).
+Pensemos un poco a cerca de lo anterior: *dos neuronas pueden reaccionar de un modo muy diferente ante una misma señal eléctrica*. Ok, entonces podemos decir que (de forma algo simplista) una neurona se conecta de diferente modo con otras. Es decir, que no es como un simple interruptor: no es que esté conectada **o** no lo esté ($1$ ó $0$), si no más bien que la conexión de una neurona con otra puede ir *desde* no conectada en absoluto *hasta* completamente conectada (desde $0$ hasta $1$).
 
 Perfecto, pues ahora tratemos de representar esta idea de neurona de una forma ms esquemática, más conceptual. Para eso hace falta que introduzcamos un poquito de terminología en los 3 factores que introdujimos antes:
 1. La señal es un **input o entrada**, que se suele representar como $$x$$. Si hay $$3$$ señales de entrada (una por cada dentrita) tendríamos $$x_{1}$$, $$x_{2}$$, $$x_{3}$$.
