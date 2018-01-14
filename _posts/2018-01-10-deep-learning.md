@@ -6,7 +6,7 @@ thumbnail: /images/neural_net.jpeg
 title: "Aprendizaje profundo: una introducción"
 comments: true
 mathjax: true
-published: false
+published: true
 ---
 
 Este post tiene como finalidad descubrir el intrigante mundo de las redes neuronales: una técnica de IA que en la última década ha generado resultados increíbles. Aprenderás por fin qué es eso del Deep Learning, como funciona una red neuronal y de qué modo se puede aplicar a diferentes problemas y situaciones del mundo real: detectar objetos en imágenes, generar música, traducir automáticamente de un idioma o vencer al ser humano en juegos como el Go o el Dota 2. Tranquilo, no hace falta ningún concepto previo de matemáticas o informática para entender el post.
@@ -88,4 +88,15 @@ La forma más minimalista de representar una neurona es el diagrama de abajo. En
   <br>  
 </div>
 
-Como se puede observar, a cada columna (aunque esté formada sólo por un elemento) se le llama capa, de modo que se tiene en primer lugar la **capa de entrada**, después una **capa oculta** (se llama así porque no es algo que se pueda observar directamente como pueda ser el input o el resultado) y por última la **capa de salida**.
+Como se puede observar, a cada columna (aunque esté formada sólo por un elemento) se le llama capa, de modo que se tiene en primer lugar la **capa de entrada**, después una **capa oculta** y por última la **capa de salida**. La capa oculta recibe este nombre porque no es algo que se pueda observar directamente como pueda ser el input o el output. Etiquetemos un poco nuestro diagrama en base a estas definiciones, obteniendo el diagrama 2.
+
+<div>
+  <br>
+  <figure>
+    <center>
+     <img src="/images/nn1.png" height="100%" width="100%" alt="Neurona" />
+     <figcaption><b>Diagrama 2:</b> <i>Esquema simple de una neurona con etiquetas de cada elemento.</i></figcaption>
+    </center>
+  </figure>
+  <br>  
+</div>
