@@ -124,7 +124,7 @@ $$\sum_{i = 1}^{3}(w_i*x_i) + b$$
 
 que significa *"la suma desde $i = 1$ hasta $i = 3$ de el peso $w_i$ por la entrada $x_i$, y todo ello sumado al bias $b$"*. Es decir, que se hace lo mismo para los $3$ valores de $i$. 
 
-Ahora sólo nos queda encontrar algún tipo de regla que nos indique cuándo el resultado debe hacer que la neurona se active. Esto se hace por medio de una **función de activación**, que es una fórmula en la cual nosotros podemos introducir la expresión anterior y obtener una salida. Esta función se suele llamar $\sigma$ (la letra griega sigma). La salida puede ser tan sencilla como "me activo" ($0$) o "no me activo" o, al igual que ocurría con los pesos, más compleja admitiendo tambień "me activo un poco" ($0.3$), esto depende de la función que escojamos. A continuación exploraremos un poco cómo funciona esto de las funciones de activación y en qué consiste. Todo lo anterior está representado el diagrama 3:
+Ahora sólo nos queda encontrar algún tipo de regla que nos indique cuándo el resultado debe hacer que la neurona se active. Esto se hace por medio de una **función de activación**, que es una fórmula en la cual nosotros podemos introducir la expresión anterior y obtener una salida. Esta función se suele llamar $\sigma$ (la letra griega sigma). La salida puede ser tan sencilla como "me activo" ($0$) o "no me activo" o, al igual que ocurría con los pesos, más compleja admitiendo también "me activo un poco" ($0.3$), esto depende de la función que escojamos. A continuación exploraremos un poco cómo funciona esto de las funciones de activación y en qué consiste. Todo lo anterior está representado el diagrama 3:
 
 <div>
   <br>
