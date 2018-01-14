@@ -163,9 +163,27 @@ Vamos a ver ya que estamos cómo es la función si se pinta (dando valores a $z$
 
 Esta función sólo admite dos salidas: $1$ y $0$. Como se puede observar, tiene sentido que se denomine función escalón. 
 
+#### Función lineal:
+
+Alguien podría plantearse en usar una función lineal como función de activación. De forma muy resumida, se dice que algo es lineal cuando se puede expresar como sumas y productos. Por tanto, una función lineal sería aquella en la que la salida es proporcional al valor recibido: 
+
+$$\sigma(z) = m * z + n$$
+
+Si uno lo piensa un poco esto es lo que se hace previamente a aplicar una función de activación: la expresión anterior es una expresión lineal ya que multiplica pesos y entradas sumándolos entre sí junto con un bias. Pero el principal problema de esto es que si queremos aplicar una función de activación lineal vamos a obtener un valor que no está acotado como en el caso de la función escalón. Es decir, nos interesa obtener siempre un valor que esté dentro de un rango: entre $0$ y $1$ por ejemplo. Por otro lado, las funciones lineales son rectas, así que tienen una variación constante (la pendiente). La variación, tal y como veremos más adelante en otro post, es fundamental para que las neuronas puedan aprender. Por tanto, no tiene sentido aplicar una función de activación lineal.
+
 #### Función sigmoide:
 
-h
+La función sigmoide es una de las más empleadas en aprendizaje profundo, de hecho he de decir que la función escalón en la práctica no se usa en este área si no que es más bien el primer modelo que se introdujo y que marcó el inicio de los modelos neuronales artificiales. Esto se debe principalmente a dos aspectos propios de la función sigmoide y otras frente a una función escalón o una lineal:
+1. La función sigmoide introduce también las respuestas "me activo un poco" que comentábamos antes, de modo que coge cada valor posible que pueda recibir y devuelve un número *entre* $0$ y $1$ en función del valor recibido.
+2. La función sigmoide no es lineal, de modo que introduce una **no linealidad** en el modelo.
+
+Vamos a entender un poco estos aspectos, para ello veamos cómo es la función sigmoide y por qué tiene ese nombre tan raro. Sólo para los curiosos, la fórmula es la siguiente:
+
+$$\sigma(z) = \frac{1}{1 + e^{x}}$$
+
+Y la gráfica, que es lo que nos importa ahora, es esta:
+
+
 
 #### Otras funciones de activación:
 
