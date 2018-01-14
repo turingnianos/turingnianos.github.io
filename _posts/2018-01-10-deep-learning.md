@@ -70,6 +70,21 @@ Perfecto, hasta aquí la parte de biología. Ahora toca nuestro momento de inter
 
 Pensemos un poco a cerca de lo anterior: *dos neuronas pueden reaccionar de un modo muy diferente ante una misma señal eléctrica*. Ok, entonces podemos decir que (de forma algo simplista) una neurona se conecta de diferente modo con otras. Es decir, que no es como un simple interruptor: no es que esté conectada **o** no lo esté ($1$ ó $0$), si no más bien que la conexión de una neurona con otra puede ir **desde** no conectada en absoluto **hasta** completamente conectada (desde $0$ hasta $1$).
 
-$$ e^{\pi i} + 1 = 0 $$
+Perfecto, pues ahora tratemos de representar esta idea de neurona de una forma ms esquemática, más conceptual. Para eso hace falta que introduzcamos un poquito de terminología en los 3 factores que introdujimos antes:
+1. La señal es un **input o entrada**, que se suele representar como $$x$$. Si hay $$3$$ señales de entrada (una por cada dentrita) tendríamos $$x_{1}$$, $$x_{2}$$, $$x_{3}$$.
+2. Cada neurona tiene cierta tendencia o inclinación diferente a activarse según cómo sea. Esta parcialidad se denomina **bias** (del inglés), y se representa como $$b$$. Por tanto, si tenemos $$2$$ neuronas, cada una tendrá un bias asociado, $$b_{1}$$ el primero y $$b_{2}$$ el segundo.
+3. Finalmente, cada conexión entre un input (cada señal) con la neurona tiene un valor llamado peso que puede ir desde $$0$$ hasta $$1$$ (como una probabilidad). Este valor se suele denominar **weight** (del inglés) y se representa como $$w$$. Es decir, cada input se relaciona con una neurona mediante un peso, de forma que no todos los inputs tienen la misma importancia para que la neurona se active o no.
 
-Por tanto, 
+La forma más minimalista de representar una neurona es el diagrama de abajo. En este diagrama sólo tenemos impulsos (azules) conectados con el núcleo (verde) para luego dar paso a una salida o resultado (rojo), que en este caso simplemente sería si se ha activado o no la neurona según los impulsos sean lo suficientemente influyentes frente al bias. Ahora vemos cómo se decide esto.
+
+<div>
+  <br>
+  <figure>
+    <center>
+     <img src="/images/nn0.png" height="100%" width="100%" alt="Neurona" />
+     <figcaption><b>Diagrama 1:</b> <i>Esquema simple de una neurona.</i></figcaption>
+    </center>
+  </figure>
+  <br>  
+</div>
+
