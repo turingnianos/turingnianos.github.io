@@ -166,7 +166,7 @@ Esta función sólo admite dos salidas: $1$ y $0$. Como se puede observar, tiene
 
 #### Función lineal:
 
-Alguien podría plantearse en usar una función lineal como función de activación. De forma muy resumida, se dice que algo es lineal cuando se puede expresar como sumas y productos. Por tanto, una función lineal sería aquella en la que la salida es proporcional al valor recibido: 
+Alguien podría plantearse usar una función lineal como función de activación. De forma muy resumida, se dice que algo es lineal cuando se puede expresar como sumas y productos. Por tanto, una función lineal sería aquella en la que la salida es proporcional al valor recibido: 
 
 $$\sigma(z) = m * z + n$$
 
