@@ -1,11 +1,11 @@
 /* @import url(http://fonts.googleapis.com/css?family=Lato:400,700); */
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
 @import url('https://fonts.googleapis.com/css?family=Overlock');
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+/*@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');*/
 
 /* global settings */
 body {
-  font-family: 'Quicksand', 'Overlock', 'Old Standard TT', 'sans-serif';
+  font-family: /*'Quicksand',*/ 'Overlock', 'Old Standard TT', 'sans-serif';
   padding-bottom:60px;
   padding-top:50px;
   font-size:17px;
