@@ -264,7 +264,9 @@ Este modelo se denomina **perceptrón simple** y fue introducido en 1957 por Fra
 
 ### Redes neuronales artificiales:
 
-Ahora que ya sabemos cómo funciona una neurona artificial podemos pasar a analizar redes de dichas neuronas, es decir, lo que se conoce como **redes neuronales artificiales**. Un aviso: he decidido adoptar la notación inglesa dado que es la de mayor uso en el área, de modo que a partir de ahora cuando me refiera a redes neuronales artificiales usaré las siglas **ANNs** (de Artificial Neural Networks), no RNA. Dicho esto, cabe añadir que a partir de ahora cada nodo (cada circulito) de los diagramas que aparezcan será una neurona, con su propio bias y su propia función de activación, que estará conectada a otras neuronas. Esto recuerda a la estructura del cerebro: una gran red neuronal.
+Ahora que ya sabemos cómo funciona una neurona artificial podemos pasar a analizar redes de dichas neuronas, es decir, lo que se conoce como **redes neuronales artificiales**. Un aviso: he decidido adoptar la notación inglesa dado que es la de mayor uso en el área, de modo que a partir de ahora cuando me refiera a redes neuronales artificiales usaré las siglas **ANNs** (de Artificial Neural Networks), no RNA. 
+
+Dicho esto, cabe añadir que a partir de ahora cada nodo (cada circulito) de los diagramas que aparezcan será una neurona, con su propio bias y su propia función de activación, que estará conectada a otras neuronas. Esto recuerda a la estructura del cerebro: una gran red neuronal.
 
 Para entender las ANNs, debemos considerar lo siguiente:
 - Las neuronas se presentan en capas y cada capa realiza una transformación concreta con la información que recibe. Recuerda que la primera capa y la última son casos especiales: la primera es la capa de entrada de información (no tiene bias ni pesos ya que no hay capas anteriores) y la última es la de salida (no tiene pesos que apunten a neuronas de la siguiente capa puesto que es la última).
