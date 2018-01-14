@@ -2,7 +2,7 @@
 layout: post
 tags: redes-neuronales deep-learning inteligencia-artificial
 date: 2018-01-14
-thumbnail: /images/neural_net.jpeg
+thumbnail: /images/dnn.png
 title: "Aprendizaje profundo: una introducción"
 comments: true
 mathjax: true
