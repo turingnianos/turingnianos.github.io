@@ -83,7 +83,7 @@ La forma más minimalista de representar una neurona es el diagrama de abajo. En
   <br>
   <figure>
     <center>
-     <img src="/images/nn0.png" height="100%" width="100%" alt="Neurona" />
+     <img src="/images/nn0.png" height="100%" width="100%" alt="Diagrama0" />
      <figcaption><b>Diagrama 1:</b> <i>Esquema simple de una neurona.</i></figcaption>
     </center>
   </figure>
@@ -96,7 +96,7 @@ Como se puede observar, a cada columna (aunque esté formada sólo por un elemen
   <br>
   <figure>
     <center>
-     <img src="/images/nn1.png" height="100%" width="100%" alt="Neurona" />
+     <img src="/images/nn1.png" height="100%" width="100%" alt="Diagrama1" />
      <figcaption><b>Diagrama 2:</b> <i>Esquema simple de una neurona con etiquetas para los inputs ($x$), bias ($b$) y output ($y$).</i></figcaption>
     </center>
   </figure>
@@ -123,3 +123,19 @@ Esta expresión significa: *"la activación de una neurona depende de todas sus 
 $$\sum_{i = 1}^{3}(w_i*x_i) + b$$ 
 
 que significa *"la suma desde i = 1 hasta i = 3 de el peso $w_i$ por la entrada $x_i$, y todo ello sumado al bias $b$"*. Es decir, que se hace lo mismo para los $3$ valores de $i$. 
+
+Ahora sólo nos queda encontrar algún tipo de regla que nos indique cuándo el resultado debe hacer que la neurona se active. Esto se hace por medio de una **función de activación**, que es una fórmula en la cual nosotros podemos introducir la expresión anterior y obtener una salida. Esta función se suele llamar $\sigma$ (la letra griega sigma). La salida puede ser tan sencilla como "me activo" ($0$) o "no me activo" o, al igual que ocurría con los pesos, más compleja admitiendo tambień "me activo un poco" ($0.3$), esto depende de la función que escojamos. A continuación exploraremos un poco cómo funciona esto de las funciones de activación y en qué consiste. Todo lo anterior está representado el diagrama 3:
+
+<div>
+  <br>
+  <figure>
+    <center>
+     <img src="/images/nn2.png" height="100%" width="100%" alt="Diagrama2" />
+     <figcaption><b>Diagrama 3:</b> <i>Esquema de la neurona con etiquetas para los inputs ($x_i$), bias ($b$) y output ($y$), incluyendo además los pesos ($w_i$) y la función de activación ($\sigma$).</i></figcaption>
+    </center>
+  </figure>
+  <br>  
+</div>
+
+#### Función escalón:
+Vamos a empezar con la función más simple: la función escalón.
