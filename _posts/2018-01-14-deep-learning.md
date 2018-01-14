@@ -170,7 +170,9 @@ Alguien podría plantearse usar una función lineal como función de activación
 
 $$\sigma(z) = m * z + n$$
 
-Si uno lo piensa un poco esto es lo que se hace previamente a aplicar una función de activación: la expresión anterior es una expresión lineal ya que multiplica pesos y entradas sumándolos entre sí junto con un bias. Pero el principal problema de esto es que si queremos aplicar una función de activación lineal vamos a obtener un valor que no está acotado como en el caso de la función escalón. Es decir, nos interesa obtener siempre un valor que esté dentro de un rango: entre $0$ y $1$ por ejemplo. Por otro lado, las funciones lineales son rectas, así que tienen una variación constante (la pendiente). La variación, tal y como veremos más adelante en otro post, es fundamental para que las neuronas puedan aprender. Por tanto, no tiene sentido aplicar una función de activación lineal.
+Si uno lo piensa un poco esto es lo que se hace previamente a aplicar una función de activación: la expresión anterior es una expresión lineal ya que multiplica pesos y entradas sumándolos entre sí junto con un bias. Pero el principal problema es que si queremos aplicar una función de activación lineal vamos a obtener un valor que no está acotado como en el caso de la función escalón. Es decir, nos interesa obtener siempre un valor que esté dentro de un rango: entre $0$ y $1$ por ejemplo. 
+
+Por otro lado, las funciones lineales son rectas, así que tienen una variación constante (la pendiente). La variación, tal y como veremos más adelante en otro post, es fundamental para que las neuronas puedan aprender. Por tanto, no tiene sentido aplicar una función de activación lineal.
 
 #### Función sigmoide: no linealidad
 
