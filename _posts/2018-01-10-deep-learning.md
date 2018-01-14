@@ -118,8 +118,8 @@ Por otro lado, ¿cómo decide nuestra neurona cuándo activarse y cuándo no? Pu
 
 $$w_1 * x_1 + w_2 * x_2 + w_3 * x_3 + b$$
 
-Esta expresión significa: *la activación de una neurona depende de todas sus entradas ($x$) con sus respectivas importancias ($w$) junto con lo propensa que sea a activarse de por sí ($b$)*. Para los que les guste poner las cosas más compactas, en matemáticas se usa una notación con un símbolo denominado sumatorio: si en vez de referirnos siempre a cada entrada una por una ($x_1$, $x_2$, ...) nos referimos siempre a una entrada genérica $x_i$, con ir dando valores a $i$ obtenemos cada entrada particular, y lo mismo con los pesos. De este modo la expresión pasa a ser:
+Esta expresión significa: *"la activación de una neurona depende de todas sus entradas ($x$) con sus respectivas importancias ($w$) junto con lo propensa que sea a activarse de por sí ($b$)"*. Para los que les guste poner las cosas más compactas, en matemáticas se usa una notación con un símbolo denominado sumatorio: si en vez de referirnos siempre a cada entrada una por una ($x_1$, $x_2$, ...) nos referimos siempre a una entrada genérica $x_i$, con ir dando valores a $i$ obtenemos cada entrada particular, y lo mismo con los pesos. De este modo la expresión pasa a ser:
 
-$$\sum_{i = 1}^{3}(w_i*x_i) + b$$ ,
+$$\sum_{i = 1}^{3}(w_i*x_i) + b$$ 
 
-que significa *la suma desde i = 1 hasta i = 3 de el peso $w_i$ por la entrada $x_i$, y todo ello sumado al bias $b$*. Es decir, que se hace lo mismo para los $3$ valores de $i$.
+que significa *"la suma desde i = 1 hasta i = 3 de el peso $w_i$ por la entrada $x_i$, y todo ello sumado al bias $b$"*. Es decir, que se hace lo mismo para los $3$ valores de $i$. 
