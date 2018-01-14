@@ -122,7 +122,7 @@ Esta expresión significa: *"la activación de una neurona depende de todas sus 
 
 $$\sum_{i = 1}^{3}(w_i*x_i) + b$$ 
 
-que significa *"la suma desde i = 1 hasta i = 3 de el peso $w_i$ por la entrada $x_i$, y todo ello sumado al bias $b$"*. Es decir, que se hace lo mismo para los $3$ valores de $i$. 
+que significa *"la suma desde $i = 1$ hasta $i = 3$ de el peso $w_i$ por la entrada $x_i$, y todo ello sumado al bias $b$"*. Es decir, que se hace lo mismo para los $3$ valores de $i$. 
 
 Ahora sólo nos queda encontrar algún tipo de regla que nos indique cuándo el resultado debe hacer que la neurona se active. Esto se hace por medio de una **función de activación**, que es una fórmula en la cual nosotros podemos introducir la expresión anterior y obtener una salida. Esta función se suele llamar $\sigma$ (la letra griega sigma). La salida puede ser tan sencilla como "me activo" ($0$) o "no me activo" o, al igual que ocurría con los pesos, más compleja admitiendo tambień "me activo un poco" ($0.3$), esto depende de la función que escojamos. A continuación exploraremos un poco cómo funciona esto de las funciones de activación y en qué consiste. Todo lo anterior está representado el diagrama 3:
 
@@ -155,7 +155,7 @@ Vamos a ver ya que estamos cómo es la función si se pinta (dando valores a $z$
   <figure>
     <center>
      <img src="/images/step.png" height="100%" width="100%" alt="Escalón" />
-     <figcaption><b>Gráfico 1:</b> <i>Función escalón para un unmbral de $0$.</i></figcaption>
+     <figcaption><b>Gráfico 1:</b> <i>Función escalón para un umbral de $0$.</i></figcaption>
     </center>
   </figure>
   <br>  
@@ -201,9 +201,43 @@ Este asunto de **la no linealidad es fundamental para el aprendizaje profundo**,
 #### Otras funciones de activación:
 
 Además de la sigmoide, exiten otras funciones de activación no lineales que se usan bastante en la actualidad. Entre estas se encuentran:
-- Función tanh: es una variación de la función sigmoide que tiene otra escala.
+- **Función tanh**: es una variación de la función sigmoide que tiene otra escala. Va desde $-1$ hasta $1$. Su fórmula es:
 
-- Función ReLU:
+$$\sigma(z) = \frac{1}{1 + e^{-2x}} - 1$$
+
+Y la gráfica:
+
+<div>
+  <br>
+  <figure>
+    <center>
+     <img src="/images/tanh.png" height="100%" width="100%" alt="tanh" />
+     <figcaption><b>Gráfico 3:</b> <i>Función tanh.</i></figcaption>
+    </center>
+  </figure>
+  <br>  
+</div>
+
+- **Función ReLU**: cuenta con un umbral en $0$ de modo que si el valor es mayor que $0$, devuelve directamente el valor y en caso contrario devuelve $0$. Se suele aproximar con la funcióń $\sigma(z) = ln(1 + e^{z})$. La fórmula es:
+
+$$\sigma(z) = \max{(0, z)} = \left\{\begin{matrix}
+0, & si  & z \leq 0.\\ 
+z, & si & z > 0.
+\end{matrix}\right.$$
+$$\sigma(z) \approx ln(1 + e^{z})$$
+
+Y su gráfica:
+
+<div>
+  <br>
+  <figure>
+    <center>
+     <img src="/images/sigmoid.png" height="100%" width="100%" alt="ReLU" />
+     <figcaption><b>Gráfico 4:</b> <i>Función ReLU.</i></figcaption>
+    </center>
+  </figure>
+  <br>  
+</div>
 
 ### Perceptrón simple:
 
