@@ -154,7 +154,7 @@ Vamos a ver ya que estamos cómo es la función si se pinta (dando valores a $z$
   <br>
   <figure>
     <center>
-     <img src="/images/step.png" height="100%" width="100%" alt="Diagrama2" />
+     <img src="/images/step.png" height="100%" width="100%" alt="Escalón" />
      <figcaption><b>Gráfico 1:</b> <i>Función escalón para un unmbral de $0$.</i></figcaption>
     </center>
   </figure>
@@ -171,7 +171,7 @@ $$\sigma(z) = m * z + n$$
 
 Si uno lo piensa un poco esto es lo que se hace previamente a aplicar una función de activación: la expresión anterior es una expresión lineal ya que multiplica pesos y entradas sumándolos entre sí junto con un bias. Pero el principal problema de esto es que si queremos aplicar una función de activación lineal vamos a obtener un valor que no está acotado como en el caso de la función escalón. Es decir, nos interesa obtener siempre un valor que esté dentro de un rango: entre $0$ y $1$ por ejemplo. Por otro lado, las funciones lineales son rectas, así que tienen una variación constante (la pendiente). La variación, tal y como veremos más adelante en otro post, es fundamental para que las neuronas puedan aprender. Por tanto, no tiene sentido aplicar una función de activación lineal.
 
-#### Función sigmoide:
+#### Función sigmoide: no linealidad
 
 La función sigmoide es una de las más empleadas en aprendizaje profundo, de hecho he de decir que la función escalón en la práctica no se usa en este área si no que es más bien el primer modelo que se introdujo y que marcó el inicio de los modelos neuronales artificiales. Esto se debe principalmente a dos aspectos propios de la función sigmoide y otras frente a una función escalón o una lineal:
 1. La función sigmoide introduce también las respuestas "me activo un poco" que comentábamos antes, de modo que coge cada valor posible que pueda recibir y devuelve un número *entre* $0$ y $1$ en función del valor recibido.
@@ -183,11 +183,27 @@ $$\sigma(z) = \frac{1}{1 + e^{x}}$$
 
 Y la gráfica, que es lo que nos importa ahora, es esta:
 
+<div>
+  <br>
+  <figure>
+    <center>
+     <img src="/images/sigmoid.png" height="100%" width="100%" alt="Sigmoide" />
+     <figcaption><b>Gráfico 2:</b> <i>Función sigmoide.</i></figcaption>
+    </center>
+  </figure>
+  <br>  
+</div>
 
+Como puedes ver, tiene forma de *s*, de ahí el nombre de la función, por la letra griega sigma (s). Lo interesante de esta función es que si uno la compara con la escalón la función avanza progresivamente de $0$ a $1$. Esta función tiene una variación que no es constante de modo que no presenta el problema de las funciones lineales. Esto significa que la función no es lineal.
+
+Este asunto de **la no linealidad es fundamental para el aprendizaje profundo**, porque es lo que hace que algo pase de ser simplemente una combinación mediante sumas y productos a tener un comportamiento más complejo y menos predecible que hace que se puedan captar estructuras más complejas en la información.
 
 #### Otras funciones de activación:
 
-tanh, ReLU 
+Además de la sigmoide, exiten otras funciones de activación no lineales que se usan bastante en la actualidad. Entre estas se encuentran:
+- Función tanh: es una variación de la función sigmoide que tiene otra escala.
+
+- Función ReLU:
 
 ### Perceptrón simple:
 
