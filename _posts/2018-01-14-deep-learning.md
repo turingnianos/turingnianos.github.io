@@ -295,7 +295,7 @@ El aprendizaje profundo como hemos visto es una rama de la Inteligencia Artifici
 
 Por otro lado, estos modelos logran aprender con bastante eficacia debido en gran parte a la no linealidad que se introduce y a la especialización de sus elementos (las neuronas) en diferentes aspectos de la información tratada. Para ello como veremos en otro post, lo que se entrenan son los weights y los biases para lograr una estructura que sepa extraer correctamente las propiedades de la información.
 
-Tal y como se explicará mas adelante, el aprendizaje profundo cuenta con diferentes modelos que consisten en structuras especializadas según el tipo de información que se trate. Existen principalmente dos grandes grupos:
+Tal y como se explicará mas adelante, el aprendizaje profundo cuenta con diferentes modelos que consisten en estructuras especializadas según el tipo de información que se trate. Existen principalmente dos grandes grupos:
 - **Redes Neuronales Convolucionales (CNNs)**: aplicadas principalmente a imágenes.
 - **Redes Neuronales Recurrentes (RNNs)**: aplicadas a datos de tipo secuencial, como puedan ser el lenguaje o el sonido, en las cuales la información es recurrente (en una frase por ejemplo una palabra depende en mayor o menor medida de las palabras anteriores).
 
