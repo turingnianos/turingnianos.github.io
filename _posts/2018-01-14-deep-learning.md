@@ -218,12 +218,13 @@ Y la gráfica:
   <br>  
 </div>
 
-- **Función ReLU**: cuenta con un umbral en $0$ de modo que si el valor es mayor que $0$, devuelve directamente el valor y en caso contrario devuelve $0$. Se suele aproximar con la funcióń $\sigma(z) = ln(1 + e^{z})$. La fórmula es:
+- **Función ReLU**: cuenta con un umbral en $0$ de modo que si el valor es mayor que $0$, devuelve directamente el valor y en caso contrario devuelve $0$. Se suele aproximar con la función $\sigma(z) = ln(1 + e^{z})$. La fórmula es:
 
 $$\sigma(z) = \max{(0, z)} = \left\{\begin{matrix}
 0, & si  & z \leq 0.\\ 
 z, & si & z > 0.
 \end{matrix}\right.$$
+
 $$\sigma(z) \approx ln(1 + e^{z})$$
 
 Y su gráfica:
