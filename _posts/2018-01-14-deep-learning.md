@@ -247,7 +247,7 @@ Y su gráfica:
 
 Si recapitulamos un poco, podemos resumir que lo que hacemos por tanto es tomar cada entrada ($x_i$) con su peso asociado ($w_i$) y sumarlas junto con un bias ($b$). Tras resolver esta expresión pasamos el valor obtenido a una función de activación ($\sigma$) que lo toma y según cómo sea produce una salida ($y$):
 
-$$y = \sigma(w_1 * x_1 + w_2 * x_2 + w_3 * x_3 + b) = \sigma(sum_{i = 1}^{3}(w_i * x_i) + b)$$
+$$y = \sigma(w_1 * x_1 + w_2 * x_2 + w_3 * x_3 + b) = \sigma(\sum_{i = 1}^{3}(w_i * x_i) + b)$$
 
 Este modelo se denomina **perceptrón simple** y fue introducido en 1957 por Frank Rosenblatt. A continuación se muestra un diagrama que contiene de forma resumida todo lo visto anteriormente.
 
