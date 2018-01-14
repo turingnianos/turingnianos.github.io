@@ -70,12 +70,13 @@ Perfecto, hasta aquí la parte de biología. Ahora toca nuestro momento de inter
 
 Pensemos un poco a cerca de lo anterior: *dos neuronas pueden reaccionar de un modo muy diferente ante una misma señal eléctrica*. Ok, entonces podemos decir que (de forma algo simplista) una neurona se conecta de diferente modo con otras. Es decir, que no es como un simple interruptor: no es que esté conectada **o** no lo esté ($1$ ó $0$), si no más bien que la conexión de una neurona con otra puede ir *desde* no conectada en absoluto *hasta* completamente conectada (desde $0$ hasta $1$).
 
+#### Entradas, salidas y bias:
 Perfecto, pues ahora tratemos de representar esta idea de neurona de una forma ms esquemática, más conceptual. Para eso hace falta que introduzcamos un poquito de terminología en los 3 factores que introdujimos antes:
 1. La señal es un **input o entrada**, que se suele representar como $$x$$. Si hay $$3$$ señales de entrada (una por cada dentrita) tendríamos $$x_{1}$$, $$x_{2}$$, $$x_{3}$$.
 2. Cada neurona tiene cierta tendencia o inclinación diferente a activarse según cómo sea. Esta parcialidad se denomina **bias** (del inglés), y se representa como $$b$$. Por tanto, si tenemos $$2$$ neuronas, cada una tendrá un bias asociado, $$b_{1}$$ el primero y $$b_{2}$$ el segundo.
 3. Finalmente, cada conexión entre un input (cada señal) con la neurona tiene un valor llamado peso que puede ir desde $$0$$ hasta $$1$$ (como una probabilidad). Este valor se suele denominar **weight** (del inglés) y se representa como $$w$$. Es decir, cada input se relaciona con una neurona mediante un peso, de forma que no todos los inputs tienen la misma importancia para que la neurona se active o no.
 
-La forma más minimalista de representar una neurona es el diagrama de abajo. En este diagrama sólo tenemos impulsos (azules) conectados con el núcleo (verde) para luego dar paso a una **salida o output** (rojo), que en este caso simplemente sería si se ha activado o no la neurona según los impulsos sean lo suficientemente influyentes frente al bias. Ahora vemos cómo se decide esto.
+La forma más minimalista de representar una neurona es el diagrama de abajo. En este diagrama sólo tenemos impulsos (azules) conectados con el núcleo (verde) para luego dar paso a una **salida o output** (rojo), representada con $$y$$ y que en este caso simplemente sería si se ha activado o no la neurona según los impulsos sean lo suficientemente influyentes frente al bias (si hubiera $$3$$ posibles outputs en vez de sólo 1 sería entonces $$y_1$$, $$y_2$$, $$y_3$$). Ahora vemos cómo se decide cuándo la neurona se enciende y demás.
 
 <div>
   <br>
@@ -95,8 +96,17 @@ Como se puede observar, a cada columna (aunque esté formada sólo por un elemen
   <figure>
     <center>
      <img src="/images/nn1.png" height="100%" width="100%" alt="Neurona" />
-     <figcaption><b>Diagrama 2:</b> <i>Esquema simple de una neurona con etiquetas de cada elemento.</i></figcaption>
+     <figcaption><b>Diagrama 2:</b> <i>Esquema simple de una neurona con etiquetas para los inputs ($$x$$), bias ($$b$$) y output ($$y$$).</i></figcaption>
     </center>
   </figure>
   <br>  
 </div>
+
+#### Pesos y activación:
+Ya sabemos cómo representar de forma esquemática y simbólica las entradas (inputs), la parcialidad (bias) y la salida (output) de una neurona, pero aún nos quedan dos aspectos clave: los pesos (weights) y cómo saber cuándo se activa la neurona. Vamos con ello.
+
+En primer lugar, cómo ya vimos antes, los pesos son valores $$w$$ de entre $$0$$ y $$1$$ que indican lo importante que es la conexión de un input concreto con una neurona determinada, pero vamos a generalizar esto un poco más: un peso va a indicar directamente la relevancia de la conexión entre un elemento de una capa y otro elemento de la siguiente capa. Podemos de hecho ver las flechas que conectan elementos como **operaciones**, de modo que nuestra neurona opera con las entradas para decidir si se activa o no. Veamos estas operaciones.
+
+En primer lugar, puesto que los weights son como probabilidades tiene sentido pensar que afectarán directamente a cada input. Dicho de otro modo: si tenemos un input con un valor $$x$$ y un peso que lo relaciona con otro elemento de valor $$w = 1$$ tiene sentido pensar que el valor de ese input para el otro elemento que lo recibe será de $$1 * x = x$$, es decir que será directamente $$x$$. El otro extremo será cuando el peso es de $$w = 0$$, por lo cual tiene sentido pensar que será directamente $$0 * x = 0$$, de modo que $$x$$ no influirá en absoluto para el elemento. De este modo, como vimos que los pesos pueden ir de $$0$$ a $$1$$ se puede ver cómo los pesos son directamente proporionales a los inputs, es decir que siempre se multiplicará para saber su importancia de cara a la conexión considerada: $$w * x$$.
+
+Por otro lado, ¿cómo decide nuestra neurona cuándo activarse y cuándo no?
