@@ -1,7 +1,7 @@
 # Site settings
 title: Turingnianos
 email: turingnianos@gmail.com
-description: "Ideas y curiosidades de informática y matemáticas"
+description: "Ideas y curiosidades de IA e informática "
 logo_location: "logo.png"
 
 baseurl: "" # the subpath of your site, e.g. /blog/
