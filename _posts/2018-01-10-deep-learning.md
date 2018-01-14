@@ -148,5 +148,21 @@ $$\sigma (z) = \left\{\begin{matrix}
 1, & si & z > u.
 \end{matrix}\right.$$
 
-Vamos a ver ya que estamos cómo es la función si se pinta (dando valores a $z$) y se toma como umbral $u = 1$:
+Vamos a ver ya que estamos cómo es la función si se pinta (dando valores a $z$) y se toma como umbral $u = 0$, es decir que se activa si el valor es positivo ($z > 0$):
+
+<div>
+  <br>
+  <figure>
+    <center>
+     <img src="/images/step.png" height="100%" width="100%" alt="Diagrama2" />
+     <figcaption><b>Gráfico 1:</b> <i>Función escalón para un unmbral de $0$.</i></figcaption>
+    </center>
+  </figure>
+  <br>  
+</div>
+
+Esta función sólo admite dos salidas: $1$ y $0$. Como se puede observar, tiene sentido que se denomine función escalón.
+
+
+#### Función sigmoide:
 
