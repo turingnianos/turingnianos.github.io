@@ -138,7 +138,7 @@ Ahora sólo nos queda encontrar algún tipo de regla que nos indique cuándo el 
 </div>
 
 #### Función escalón:
-Las **funciones** son relaciones matemáticas, lo que hacen es asociar un elemento de un tipo con otro (que puede ser de otro tipo). En nuestro caso según el valor que reciban, devuelven un valor diferente. Vamos a empezar analizar la función de activación más simple: la función escalón. Esta función es muy intuitiva, pues consiste básicamente en lo siguiente:
+Las **funciones** son relaciones matemáticas, lo que hacen es asociar un elemento de un tipo con otro (que puede ser de otro tipo). En nuestro caso según el valor que reciban, devuelven un valor diferente. Vamos a empezar analizando la función de activación más simple: la función escalón. Esta función es muy intuitiva, pues consiste básicamente en lo siguiente:
 * Si el valor que recibe es menor o igual que un valor concreto devuelve el valor $0$ (es decir, que no se activa).
 * Si el valor que recibe supera a dicho valor concreto devuelve el $1$ (es decir, se activa).
 Este valor concreto se suele denominar **umbral** (*threshold* en inglés). Vamos a llamar al umbral $u$ y al valor que recibe la función $z$ (se suele usar $x$ para este último, pero no quiero que lo confundamos con los inputs). De este modo, matemáticamente esta función se expresaría del siguiente modo:
@@ -163,9 +163,17 @@ Vamos a ver ya que estamos cómo es la función si se pinta (dando valores a $z$
 
 Esta función sólo admite dos salidas: $1$ y $0$. Como se puede observar, tiene sentido que se denomine función escalón. 
 
+#### Función sigmoide:
+
+h
+
+#### Otras funciones de activación:
+
+tanh, ReLU 
+
 ### Perceptrón simple:
 
-Si recapitulamos un poco, podemos resumir que lo que hacemos por tanto es tomar cada entrada ($x_i$) con su peso asociado ($w_i$) y sumarlas junto con un bias ($b$). Tras resolver esta expresión pasamos el valor obtenido a una función de activación que ($\sigma$) lo toma y según cómo sea produce una salida ($y$):
+Si recapitulamos un poco, podemos resumir que lo que hacemos por tanto es tomar cada entrada ($x_i$) con su peso asociado ($w_i$) y sumarlas junto con un bias ($b$). Tras resolver esta expresión pasamos el valor obtenido a una función de activación ($\sigma$) que lo toma y según cómo sea produce una salida ($y$):
 
 $$y = \sigma(w_1 * x_1 + w_2 * x_2 + w_3 * x_3 + b) = \sigma(sum_{i = 1}^{3}(w_i * x_i) + b)$$
 
@@ -184,3 +192,13 @@ Este modelo se denomina **perceptrón simple** y fue introducido en 1957 por Fra
 
 ### Redes neuronales artificiales:
 
+Ahora que ya sabemos cómo funciona una neurona artificial podemos pasar a analizar redes de dichas neuronas, es decir, lo que se conoce como **redes neuronales artificiales**. Un aviso: he decidido adoptar la notación inglesa dado que es la de mayor uso en el área, de modo que a partir de ahora cuando me refiera a redes neuronales artificiales usaré las siglas **ANNs** (de Artificial Neural Networks), no RNA. Dicho esto, cabe añadir que a partir de ahora cada nodo (cada circulito) de los diagramas que aparezcan será una neurona, con su propio bias y su propia función de activación, que estará conectada a otras neuronas. Esto recuerda a la estructura del cerebro: una gran red neuronal.
+
+- Cada capa realiza una transformación concreta 
+- Las neuronas se especializan dentro de cada capa en diferentes aspectos
+
+### Aprendizaje profundo (Deep Learning):
+
+- No linearidades
+- Big Data + GPUs
+- Estructuras especializadas: CNNs, RNNs, GANs, ...
